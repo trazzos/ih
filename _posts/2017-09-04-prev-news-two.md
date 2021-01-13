@@ -1,0 +1,38 @@
+---
+layout: post
+title:  "Seven Post Title Here"
+date:   2017-09-4 08:17:32 +0600
+post_image: "/assets/images/prev-2.jpg"
+categories: "Recent"
+category: "Recent"
+author: "robert_rawlins"
+author_web: http://themeix.com
+tags: github github-pages jekyll
+
+---
+
+<p>Nowes Sultan Is a  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero eaque illum maxime quis cupiditate inventore perferendis in, expedita officiis eveniet eius enim recusandae nemo earum, veniam voluptatem maiores non nostrum vitae. Natus modi rerum laboriosam aspernatur perspiciatis soluta veritatis ducimus repellat, et, cum omnis. Deserunt distinctio labore quod enim mollitia!</p>
+
+
+
+Previous News And   Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis magni a expedita, distinctio reiciendis deserunt animi temporibus exercitationem architecto cumque ratione, assumenda eaque. Dolorum, quis.. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+
+To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+
+Jekyll also offers powerful support for code snippet
+<blockquote>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam repellendus odit quas voluptas, est id commodi ad? Ea mollitia cupiditate consectetur assumenda nesciunt ipsum consequuntur aut architecto soluta laboriosam. Fuga.</p>
+</blockquote>
+
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae, iure nulla tempore labore ratione fugiat, dolorem eaque. Id veniam vitae doloribus magnam labore ipsam debitis vero molestiae similique eaque esse deleniti quasi maxime recusandae quisquam soluta dicta voluptate ipsum incidunt, in hic facere eligendi molestias! Adipisci perferendis quaerat ipsa vitae error nisi in doloribus nihil ex aperiam omnis iste, perspiciatis expedita quia velit molestiae tempore.</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus sed accusamus quos cupiditate provident asperiores sequi harum corporis, magni soluta eum quo architecto nihil numquam doloremque porro voluptatem, corrupti sapiente! Aliquam officia numquam ducimus corporis soluta tempore, est praesentium rem nihil quaerat doloremque unde ipsum eius, eaque quae dolorum, earum atque, odit voluptates dignissimos.</p>

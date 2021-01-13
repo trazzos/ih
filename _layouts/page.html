@@ -1,0 +1,32 @@
+---
+layout: default
+---
+    <!-- Start Slider Area -->
+    <div class="slider-area">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="slider-wrapper height-250">
+                    <div id="particles-js" style="background-image:url(/assets/images/slider.jpg);">
+                        <div class="slider-fixed-text">
+                            {% if page.title%}
+                             <h2>{{page.title}}</h2>
+                            {% endif %} 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End Slider Area -->
+    <div class="appiex-blog-content section-ptb">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="single-blog-item post tag-image">
+						{{content}}
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>

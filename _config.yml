@@ -1,0 +1,35 @@
+###################################################################
+# Welcome to Appix Jekyll Theme 
+# Developed by https://themeix.com
+# Version : 2.0.0
+###################################################################
+
+title:                  "Appix Jekyll Template"
+email:                  "themeix@gmail.com"
+description:            "Themeix is a awesome company for selling jekyll,ghost,html, blogging and wordpress websites."
+
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://jekyll-appix.themeix.com/" # the base hostname & protocol for your site, e.g. https://example.com
+
+
+# Build settings
+markdown:               kramdown
+theme:                  minima
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+
+paginate:               6
+permalink:              pretty
+mailchimp_link:         "//themeix.us16.list-manage.com/subscribe?u=4b7aa1c5c5ac54be844d58bcb&id=0e85c09412"
+
+# social links
+
+twitter_username:       "themeix_com"
+facebook_username:      "themeix"
+google_plus_username:   "themeix"
+instragram_username:    "themeix"
+linkedin_username:      "themeix"
+pinterest_username:     "themeix"
+dribble_username:       "themeix"
+github_username:        "themeix"
