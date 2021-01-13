@@ -1,37 +1,26 @@
 ---
-layout: page
+layout: default
+pagination:
+  enabled: true
 ---
-<h2>Posts related to: {{ page.title }}</h2>
-
-{% unless page.content == '' %}
-  <p>{{ page.content }}</p>
-{% endunless %}
-
-{% unless site.categories.[page.category] | size > 0 %}
-  <p>No posts in this category at this time.</p>
-{% endunless %}
-
-{% for post in site.categories.[page.category] %}
-<div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">            
-            {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
-        </h3>
-        {% endif %}
-    </a>
-    <p class="post-meta">
-      Posted by 
-      {% if post.author %}
-        {{ post.author }}
-      {% else %}
-        {{ site.title }}
-      {% endif %} 
-      on {{ post.date | date: "%B %-d, %Y" }}
-    </p>
-</div>
-<hr>
-{% endfor %}
+    {% include page-title.html %}
+    <!-- Start Themeix  Feature-->
+    <section class="themeix-blog-list section-spacing bg-color">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-7 posts-card">
+                    {% for post in paginator.posts %}
+                        {% include post-card.html %}
+                    {% endfor %}
+                </div>
+                <div class="col-lg-4 col-md-5">
+                    <div class="themeix-sidebar-right">
+                        {% include sidebar.html %}
+                    </div>
+                </div>
+            </div>
+            {% include pagination.html %}
+        </div>
+    </section>
+    <!-- End Themeix Single -->
+    {% include subscribe.html %}

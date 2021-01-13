@@ -1,0 +1,46 @@
+---
+layout: default
+title: Courses List Left Sidebar
+permalink: /course-list-right-sidebar
+---
+{% include page-title.html %}          
+      <!-- Start Themeix  Course-->
+      <section class="themeix-course section-spacing bg-color">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-8">
+                  {% for course in site.courses %}
+                     <div class="popular-course-post2">
+                        <div class="row">
+                           <div class="col-md-5">
+                              <div class="popular-course-thumb" style="background-image:url({{course.image}})"> </div>
+                           </div>
+                           <div class="col-md-7">
+                              <div class="popular-course-details wow fadeIn"  data-wow-duration="2s">
+                                 <a href="{{course.url}}">
+                                    <h3>{{course.title}}</h3>
+                                 </a>
+                                 <p>{{course.description}}</p>
+                                 <div class="themeix-course-action-2">
+                                    <ul>
+                                       <li><span>{{course.fees}}</span></li>
+                                       <li>	<a class="popular-course-enroll" href="{{course.url}}">View Now</a></li>
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  {% endfor %}
+               </div>
+               <div class="col-lg-4 col-md-5">
+                  <div class="themeix-sidebar-right">
+                        {% include sidebar.html %}
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- End Themeix Course -->  
+
+{% include subscribe.html %} 

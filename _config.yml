@@ -1,35 +1,109 @@
 ###################################################################
-# Welcome to Appix Jekyll Theme 
+# Welcome to Eduzone Jekyll Theme 
 # Developed by https://themeix.com
-# Version : 2.0.0
+# Version : 1.0.0
 ###################################################################
 
-title:                  "Appix Jekyll Template"
-email:                  "themeix@gmail.com"
-description:            "Themeix is a awesome company for selling jekyll,ghost,html, blogging and wordpress websites."
-
+title: Eduzone - Premium Jekyll Theme
+email: themeix@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Eduzone Responsive Static Jekyll Theme For Blogging.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://jekyll-appix.themeix.com/" # the base hostname & protocol for your site, e.g. https://example.com
+url: "https://jekyll-eduzone.netlify.com/" # the base hostname & protocol for your site, e.g. https://example.com
+
+
+# Site Settings
+twitter_username: jekyllrb
+logo_url: /assets/images/header-logo.png
+cover_image: /assets/images/blog-img-13.jpg
+mailclimp_url: 'https://themeix.us16.list-manage.com/subscribe/post?u=307862c135e4548eecf86f389&amp;id=4784863884'
+dribble_url: https://dribble.com/themeix
+facebook_url: https://facebook.com/themeix
+instagram_url: https://instagram.com/themeix
+twitter_url: https://twitter.com/themeix_com
+linkedin_url: https://linkedin.com/themeix
+pinterest_url: https://pinterest.com/themeix
 
 
 # Build settings
-markdown:               kramdown
-theme:                  minima
+markdown: kramdown
+theme: minima
 plugins:
   - jekyll-feed
-  - jekyll-paginate
+  - jekyll-paginate-v2
+  - jekyll-archives
 
-paginate:               6
-permalink:              pretty
-mailchimp_link:         "//themeix.us16.list-manage.com/subscribe?u=4b7aa1c5c5ac54be844d58bcb&id=0e85c09412"
 
-# social links
 
-twitter_username:       "themeix_com"
-facebook_username:      "themeix"
-google_plus_username:   "themeix"
-instragram_username:    "themeix"
-linkedin_username:      "themeix"
-pinterest_username:     "themeix"
-dribble_username:       "themeix"
-github_username:        "themeix"
+# Site configuration for the Jekyll 2 Pagination Gem
+pagination:
+  enabled: true
+  debug: true
+  collection: 'posts'
+  per_page: 6
+  permalink: '/pages/:num/' # Pages are simple html files 
+  title: ':title - page :num'
+  limit: 0 
+  sort_field: 'date'
+  sort_reverse: true
+  category: 'posts'
+  tag: ''
+  locale: '' 
+  trail: 
+    before: 2
+    after: 
+  extension: 'html'
+  indexpage: 'index'
+
+autopages:
+  enabled: true
+  categories: 
+    layouts: 
+      - 'category.html'
+    title: 'Category -  :cat'
+    permalink: '/category/:cat'
+  collections:
+    layouts: 
+      - 'category.html'
+    title: ' :coll' # :coll is replaced by the collection name
+    permalink: '/:coll/'
+    
+  
+  tags:
+    layouts: 
+      - 'tag.html'
+    title: 'Tag - :tag' # :tag is replaced by the tag name
+    permalink: '/tag/:tag'  
+      
+tag_page_layout: category
+tag_page_dir: tag
+tag_permalink_style: pretty
+
+jekyll-archives:
+  enabled: all
+  layout: category
+  permalinks:
+    category: '/category/:name/'
+ 
+collections:
+  authors:
+    title: Authors
+    output: true
+    permalink: /authors/:path/
+  courses:
+    title: Courses
+    output: true
+    permalink: /courses/:path/    
+  instructors:
+    title: Instructors
+    output: true
+    permalink: /instructors/:path/    
+  lessons:
+    title: Lessons
+    output: true
+    permalink: /lessons/:path/    
+    
+feed:
+  collections:
+    posts:
+      path: "/index.xml"

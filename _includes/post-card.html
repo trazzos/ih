@@ -1,0 +1,16 @@
+<div class="themeix-blog-post wow fadeInUp post-card">
+   {% if post.post_image %}
+      <div class="themeix-blog-thumb">
+         <a href="{{post.url}}">
+            <img src="{{post.post_image}}" alt="{{post.title}}" />
+         </a>
+      </div>
+   {% endif %}
+   <div class="themeix-blog-details">
+      <a href="{{post.url}}">
+         <h5>{{post.title}}</h5>
+      </a>
+    
+   
+   </div>
+</div>

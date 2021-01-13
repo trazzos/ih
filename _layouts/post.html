@@ -1,91 +1,60 @@
 ---
 layout: default
 ---
-    <!-- Start Slider Area -->
-    <div class="slider-area">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="slider-wrapper height-250">
-                    <div id="particles-js" style="background-image:url(/assets/images/slider.jpg);">
-                        <div class="slider-fixed-text">
-                            {% if page.title%}
-                             <h2>{{page.title}}</h2>
-                            {% endif %} 
+{% assign author = site.authors | where: 'author_id', page.author_id | first %}	
+
+      {% include page-title.html %}
+      <!-- Start Themeix  Single-->
+      <section class="themeix-Single section-spacing bg-color">
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-8 col-md-7">
+                     <div class="themeix-single">
+                        {% if page.post_image %}
+                        <div class="themeix-single-thumb"><img src="{{page.post_image}}" alt="{{page.title}}" /></div>
+                        {% endif %}
+							<div class="entry-content">
+								{{content}}
+							</div>
+                        <div class="themeix-single-page wow fadeIn"  data-wow-duration="2s">
+                           <ul class="themeix-single-tags float-left list-inline">
+                              <li class="list-inline-item">Tags - </li>
+                              {% for tag in page.tags %}
+                                    <li class="list-inline-item"><a href="/tag/{{ tag | slugize }}/">{{tag}}</a></li>
+                                {% endfor %}
+                           </ul>
+                           
+                           {% include social-share.html %}
                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--End Slider Area -->
-    <div class="appiex-blog-content section-ptb">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12 col-md-8">
-                    <div class="single-blog-item post tag-image">
-                        <div class="details-img">
-                           {% if page.post_image %}
-                             <img src="{{ page.post_image }}" alt="{{past.title}}">
-                            {% else %}
-                             <img src="/assets/images/default.jpg" alt="{{past.title}}">
+
+                        <div class="themeix-single-admin wow fadeIn"  data-wow-duration="2s">
+                            {% if author.image %}
+                           <img src="{{author.image}}" alt="{{author.name}}" />
+                           <a href="{{author.url}}">
+                               {% endif %}
+                              <h5>{{author.name}} </h5>
+                           </a>
+                           <span>{{author.location}}</span>
+                           {% if author.bio %}
+                                <p>{{author.bio}}</p>
                            {% endif %}
                         </div>
-                        <div class="blog-details entry-content">
-                            {{ page.content }}
-                        </div>
-                        <div class="blog-meta-wrapper">
-                            <div class="blog-meta">
-                                <div class="tag-clouds">
-                                    <a href="/pages/tagpage/">{{ page.category | limit: 1 }}</a>
-                                </div>
+                        {% if page.comments == true %}
+                            <div class="themeix-comments inner-bottom-spacing">
+                            {% include disqus-comment.html %}
                             </div>
-                            <div class="share-icon">
-                              <span>share on</span>
-                              <ul class="social-icon">
-                                <li>
-                                   <a href="https://twitter.com/intent/tweet?text={{ post.title }}&url={{ site.url }}{{ page.url }}&via={{ site.twitter_username }}&related={{ site.twitter_username }}" class="sharebutton twitter" target="_blank"><i class="fa fa-twitter"></i></a>
-                               </li>
-                                  <li>
-                                      <a href="https://facebook.com/sharer.php?u={{ post.url }}{{ page.url }}" class="sharebutton facebook" target="_blank"><i class="fa fa-facebook"></i></a>
-                                  </li>
-                                  <li>
-                                      <a href="https://plus.google.com/share?url={{ post.url }}{{ page.url }}"  class="sharebutton google" target="_blank"><i class="fa fa-google-plus"></i></a>
-                                  </li>
-                              </ul>
-                            </div>
-                        </div>
-                        <div class="clearfix"></div>
-                        <div class="blog-navigation">
-                            <div class="previous-blog-post">
-                             {% if page.previous.url %}
-                                <a href="{{ page.previous.url }}"><i class="fa fa-angle-left"></i>Previous Article </a>
-                              {% endif %}  
-                            </div>
-                            <div class="next-blog-post">
-                               {% if page.next.url %}
-                                 <a href="{{ page.next.url }}">Next Article <i class="fa fa-angle-right"></i></a>
-                                {% endif %}
-                            </div>
-                        </div>
-                        <div class="clearfix"></div>
-                        <!-- start about the author -->
-                        <div class="about-author">
-                          {% include about_author.html %}
-                        </div>
-                        <!-- end about the author -->
-                        <div class="clearfix"></div>
-                        <!-- Comments -->
-                        <div id="disqus_thread"></div>
-                    </div>
-                </div>
-                <div class="col-md-4">
-                  <div class="sidebar-contents">
-                        {% include recent_posts.html %}
-                        <div class="twitter-feed">
-                        {% include twitter_feed.html %}
-                      </div>
+                        {% endif %}
+                        
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-5">
+                     <div class="themeix-sidebar-right">
+                        {% include sidebar.html %}
+                     </div>
                   </div>
                </div>
             </div>
-        </div>
-    </div>
+         </section>
+         <!-- End Themeix Single -->
+
+     

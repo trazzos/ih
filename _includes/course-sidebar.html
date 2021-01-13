@@ -1,0 +1,23 @@
+<h4 class="sidebar-title">Recent Course</h4>
+<div class="sidebar-recent sidebar-widget">
+    {% for course in site.courses limit:5 %}
+    {% assign instructor = site.instructors | where: 'instructor_id', course.instructor_id | first %}
+    <div class="recent-container">
+        {% if course.image %}
+        <div class="recent-image">
+            <img src="{{course.image}}" alt="{{course.title}}">
+        </div>
+        {% endif %}
+        <div class="recent-content">
+            <a href="{{course.url}}">{{course.title}}</a>
+            {% if instructor %}
+            <ul class="recent-meta list-inline">
+                <li class="list-inline-item">By</li>
+                <li class="list-inline-item"><a href="{{instructor.url}}">{{instructor.name}}</a></li>
+            </ul>
+            {% endif %}
+        </div>
+    </div>
+    {% endfor %}
+
+</div>

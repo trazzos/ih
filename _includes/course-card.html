@@ -1,0 +1,59 @@
+<div class="col-md-{% if page.url == '/course-grid' %}4 {% elsif page.url == '/index.html' %}4{% elsif page.url == '/about' %}4{% else %}6{% endif %}">
+    <div class="popular-course-post wow fadeIn" data-wow-duration="2s" >
+        <div class="popular-course-thumb" style="background-image:url({{course.image}});">
+            {% assign instructor = site.instructors | where: 'instructor_id', course.instructor_id | first %}
+            {% if instructor %}
+            <div class="popular-course-teacher">  
+                <img data-toggle="tooltip" data-placement="top" title="{{instructor.name}}" src="{{instructor.image}}" alt="{{instructor.name}}" />
+            </div>
+            {% endif %}
+        </div>
+        <div class="popular-course-content ">
+            <a href="{{course.url}}">
+                <h5>{{course.name}}</h5>
+            </a>
+            <div class="themeix-rating-area">
+                <ul class="popular-course-review list-inline">
+                    {% if course.rating == 1 %}
+                    <li class="list-inline-item"><i class="fa fa-star" aria-hidden="true"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                     {% elsif course.rating == 2 %}
+                        <li class="list-inline-item"><i class="fa fa-star" aria-hidden="true"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star" aria-hidden="true"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                     {% elsif course.rating == 3 %}
+                        <li class="list-inline-item"><i class="fa fa-star" aria-hidden="true"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star" aria-hidden="true"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star" aria-hidden="true"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                     {% elsif course.rating == 4 %}
+                        <li class="list-inline-item"><i class="fa fa-star" aria-hidden="true"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star" aria-hidden="true"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star" aria-hidden="true"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star" aria-hidden="true"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star-o" aria-hidden="true"></i></li>
+                     {% elsif course.rating == 5 %}
+                        <li class="list-inline-item"><i class="fa fa-star" aria-hidden="true"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star" aria-hidden="true"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star" aria-hidden="true"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star" aria-hidden="true"></i></li>
+                        <li class="list-inline-item"><i class="fa fa-star" aria-hidden="true"></i></li>
+                     {% endif %}
+                </ul>
+            </div>
+            <p>{{course.description}}</p>
+            <div class="popular-course-meta">
+                <div class="themeix-course-action">
+
+                    <a class="popular-course-enroll" href="{{course.url}}">View Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

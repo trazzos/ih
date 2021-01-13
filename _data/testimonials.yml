@@ -1,0 +1,14 @@
+- name: Roboto Max
+  image: /assets/images/about-author.png
+  designation: Businessman
+  review: "Tellus at vulputate nulla neccommodovolutpat nec consectetur tempor magna morbi nec erat maecenas mattis mauris vel tempus nunc nam. Nunc sed sit aenean eos, fringilla quis id, fringilla s"
+  signature: /assets/images/about-author-sign.png
+  website: #
+
+- name: Robert Jam 
+  image: /assets/images/about-author2.png
+  designation: Managing Director
+  review: "Tellus at vulputate nulla neccommodovolutpat nec consectetur tempor magna morbi nec erat maecenas mattis mauris vel tempus nunc nam. Nunc sed sit aenean eos, fringilla quis id, fringilla s"
+  signature: /assets/images/about-author-sign2.png
+  website: #
+

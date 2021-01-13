@@ -1,0 +1,25 @@
+---
+layout: default
+---
+    {% include page-title.html %}
+    
+    <!-- Start Themeix  Feature-->
+    <section class="themeix-blog-list section-spacing bg-color">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-7">
+                    {% assign author_posts = site.posts | where: 'author_id', page.author_id %}
+                    {% for post in author_posts %}
+                        {% include post-card.html %}
+                    {% endfor %}
+                </div>
+                <div class="col-lg-4 col-md-5">
+                    <div class="themeix-sidebar-right">
+                        {% include sidebar.html %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Themeix Single -->
+    {% include subscribe.html %}

@@ -1,0 +1,30 @@
+<div class="testimonial-instructor wow fadeIn" data-wow-duration="2s">
+    <div class="testimonial-info">
+        <div class="testimonial-info-thumb"><img src="{{instructor.image}}" alt="testimonial author img" /></div>
+        <div class="testimonial-info-content">
+            <a href="{{insturtor.url}}">
+                <h5>{{instructor.name}}</h5>
+            </a>
+            <p>{{instructor.designation}}</p>
+        </div>
+    </div>
+    <div class="testimonial-hover">
+        <div class="testimonial-hover-wrap">
+            <ul class="testimonial-hover-social list-inline">
+                {% if instructor.facebook %}
+                <li class="list-inline-item"><a href="{{instructor.facebook}}"><i class="fa fa-facebook"></i></a></li>
+                {% endif %}
+                {% if instructor.twitter %}
+                <li class="list-inline-item"><a href="{{instructor.twitter}}"><i class="fa fa-twitter"></i></a></li>
+                {% endif %}
+                {% if instructor.instagram %}
+                <li class="list-inline-item"><a href="{{instructor.instagram}}"><i class="fa fa-instagram"></i></a></li>
+                {% endif %}
+            </ul>
+            <a href="{{instructor.url}}">
+                <h5>{{instructor.name}}</h5>
+            </a>
+            <p>{{instructor.designation}}</p>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,28 @@
+---
+layout: default
+title: Blog Left
+pagination:
+    enabled: true
+permalink: /blog-left
+---
+{% include page-title.html %}
+    <!-- Start Themeix  Feature-->
+    <section class="themeix-blog-list section-spacing bg-color">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-5">
+                    <div class="themeix-sidebar-right">
+                        {% include sidebar.html %}
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-7 posts-card">
+                        {% for post in paginator.posts %}
+                            {% include post-card.html %}
+                        {% endfor %}
+                </div>
+            </div>
+            {% include pagination.html %}
+        </div>
+    </section>
+    <!-- End Themeix Single -->
+    {% include subscribe.html %}

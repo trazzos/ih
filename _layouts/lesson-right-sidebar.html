@@ -1,0 +1,22 @@
+---
+layout: default
+---
+{% include page-title.html %}
+<!-- Start Themeix  Single-->
+<section class="themeix-Single section-spacing bg-color">
+    <div class="container">
+    <div class="row">
+        <div class="col-lg-8 col-md-7">
+			<div class="entry-content">
+				{{content}}
+			</div>
+            {% include disqus-comment.html %}
+        </div>
+        <div class="col-lg-4 col-md-5">
+            <div class="themeix-sidebar-right text-left">
+                {% include course-sidebar.html %}
+            </div>
+        </div>
+    </div>
+    </div>
+</section>

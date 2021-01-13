@@ -1,0 +1,19 @@
+---
+layout: default
+title: Courses Grid
+permalink: /course-grid
+---
+{% include page-title.html %}     
+      <!-- Start Themeix  Course-->
+      <section class="themeix-Course section-spacing bg-color">
+         <div class="container">
+            <div class="row {{page.url}}">
+                  {% for course in site.courses %}
+                     {% include course-card.html %}
+                  {% endfor %}
+            </div>
+         </div>
+      </section>
+      <!-- End Themeix Course -->             
+      
+{% include subscribe.html %} 

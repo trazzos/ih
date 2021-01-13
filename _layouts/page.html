@@ -1,32 +1,32 @@
 ---
 layout: default
 ---
-    <!-- Start Slider Area -->
-    <div class="slider-area">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="slider-wrapper height-250">
-                    <div id="particles-js" style="background-image:url(/assets/images/slider.jpg);">
-                        <div class="slider-fixed-text">
-                            {% if page.title%}
-                             <h2>{{page.title}}</h2>
-                            {% endif %} 
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!--End Slider Area -->
-    <div class="appiex-blog-content section-ptb">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <div class="single-blog-item post tag-image">
-						{{content}}
-                    </div>
-                </div>
+    {% include page-title.com %}
+      <!-- Start Themeix  Single-->
+      <section class="themeix-Single section-spacing bg-color">
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-8 col-md-7">
+                     <div class="themeix-single">
+                        {% if page.post_image %}
+                        <div class="themeix-single-thumb"><img src="{{page.post_image}}" alt="{{page.title}}" /></div>
+                        {% endif %}
 
+						<div class="entry-content">
+							{{content}}
+						</div>
+                        
+                        {% if page.comments == true %}
+                            <div class="themeix-comments inner-bottom-spacing">
+                            {% include disqus-comment.html %}
+                            </div>
+                        {% endif %}
+                        
+                     </div>
+                  </div>
+               </div>
             </div>
-        </div>
-    </div>
+         </section>
+         <!-- End Themeix Single -->
+
+     

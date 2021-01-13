@@ -1,0 +1,78 @@
+---
+layout: default
+---   
+    {% include page-title.html %}
+    <!-- Start Themeix Course Info -->
+    <section class="themeix-course-info section-spacing ">
+        <div class="container">
+            <div class="course-info-wrapper d-flex align-items-stretch themeix">
+                    {% assign instructor = site.instructors | where: 'instructor_id', course.instructor_id | first %}
+                    {% if instructor %}
+                        <div class="course-info themeix wow fadeIn"  data-wow-duration="2s">
+                            <div class="course-logo instructor"><img src="{{instructor.image}}" alt="{{instructor.name}}" /></div>
+                            <div class="course-meta-content light-text">
+                              <p>Instructor</p>
+                            <a href="{{instructor.url}}">
+                                <h5>{{instructor.name}}</h5>
+                            </a>
+                            </div>
+                        </div>
+                    
+                        <div class="course-info instructor-bio themeix wow fadeIn"  data-wow-duration="2s"> 
+                        <p>{{instructor.bio}}</p>
+                        <div class="author-social-id">
+                            {% if instructor.facebook_url %}
+                                <a class="facebook" href="{{instructor.facebook_url}}"><i class="fa fa-facebook"></i></a>
+                            {% endif %}
+            
+                            {% if instructor.twitter_url %}
+                                <a class="twitter" href="{{instructor.twitter_url}}"> <i class="fa fa-twitter"></i></a>
+                            {% endif %}
+            
+                            {% if instructor.instagram_url %}
+                                <a class="instagram" href="{{instructor.instagram_url}}"> <i class="fa fa-instagram"></i></a>
+                            {% endif %}
+            
+                            {% if instructor.pinterest_url %}
+                                <a class="pinterest" href="{{instructor.pinterest_url}}"> <i class="fa fa-pinterest"></i></a>
+                            {% endif %}
+                        </div>
+                        </div>
+                {% endif %}
+            </div>
+        </div>
+    </section>
+    <!-- End Themeix  Course Info-->
+    <!-- Start Themeix  Single-->
+    <section class="themeix-Single bg-color">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-7">
+                    <div class="themeix-single pb-5">
+                        <div class="themeix-single-thumb"><img src="{{page.image}}" alt="{{page.title}}" /></div>
+							<div class="entry-content">
+								{{content}}
+							</div>
+                            {% assign lessons = site.lessons | where: 'course_id', page.course_id %}
+                           
+							{% assign lessons_count = lessons.size %}
+                            {% if lessons_count > 0 %}
+							 <h5>Course Lesson</h5>
+							{% endif %}					  
+							<div id="themeix-lesson-accordion">
+								{% for lesson in lessons %}
+									{% include lessons.html %}
+								{% endfor %}
+							</div>
+                    </div>					
+                </div>
+                <div class="col-lg-4 col-md-5">
+                    <div class="themeix-sidebar-left">
+                        {% include course-sidebar.html %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Themeix Single -->
+  {% include subscribe.html %}

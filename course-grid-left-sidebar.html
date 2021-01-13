@@ -1,0 +1,28 @@
+---
+layout: default
+title: Courses Grid left Sidebar
+permalink: /course-grid-left-sidebar
+---
+{% include page-title.html %}
+    <!-- Start Themeix  Course-->
+    <section class="themeix-course section-spacing bg-color">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-5">
+                    <div class="themeix-sidebar-left">
+                        {% include sidebar.html %}
+                    </div>
+                </div>
+                <div class="col-lg-8 col-md-7">
+                     <div class="row">
+                        {% for course in site.courses %}
+                            {% include course-card.html %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Themeix Course -->
+
+{% include subscribe.html %}

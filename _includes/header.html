@@ -1,32 +1,73 @@
-    <!-- Start Header Area -->
-    <header id="stickey-menu">
-        <nav class="navbar navbar-expand-lg main-menu">
-            <div class="container">
-                <div class="col-lg-3">
-                    <div class="navbar-header">
-                        <a href="{{site.url}}" class="navbar-brand">
-                            <img src="{{ '/assets/images/logo1.png' | relative_url }}" alt="{{site.title}}">
-							
-                        </a>
-						
-                        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#topMenu">
-                            <i class="fa fa-bars"></i>
-                        </button>
-                    </div>
-                </div>
-                <div class="col-lg-9">
-                    <div class="collapse navbar-collapse" id="topMenu">
-                        <ul class="navbar-nav ml-auto">
-                            <li class="nav-item"><a href="{{site.url}}" class="nav-link">Home</a></li>
-                            {% for pageinfo in site.pages %}
-                              {% if pageinfo.primaryNav == true %}
-                                <li class="nav-item"><a href="{{pageinfo.url}}" class="nav-link">{{pageinfo.title}}</a></li>
-                              {% endif %}  
-                             {% endfor %}
-                        </ul>
-                    </div>
-                </div>
+<header class="themeix-header">
+   <div class="themeix-header-top bg-color2">
+      <div class="container">
+         <div class="d-flex justify-content-between themeix">
+            <div class="themeix-top-bar-left">
+               <p class="top-content"> <i class="fa fa-envelope-o"></i> <a
+                     href="mailto:{{site.email}}">{{site.email}}</a></p>
             </div>
-        </nav>
-    </header>
-    <!-- End Header Area -->
+            <div class="themeix-top-bar-right">
+               {% if site.facebook_url %}
+               <a class="facebook" href="{{site.facebook_url}}"><i class="fa fa-facebook"></i></a>
+               {% endif %}
+
+               {% if site.twitter_url %}
+               <a class="twitter" href="{{site.twitter_url}}"> <i class="fa fa-twitter"></i></a>
+               {% endif %}
+
+               {% if site.instagram_url %}
+               <a class="instagram" href="{{site.instagram_url}}"> <i class="fa fa-instagram"></i></a>
+               {% endif %}
+
+               {% if site.pinterest_url %}
+               <a class="pinterest" href="{{site.pinterest_url}}"> <i class="fa fa-pinterest"></i></a>
+               {% endif %}
+            </div>
+         </div>
+      </div>
+   </div>
+   <!-- Modal -->
+   <div class="top-login-modal modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="tmx-loginform"
+      aria-hidden="true">
+      <div class="modal-dialog modal-dialog-scrollable" role="document">
+         <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalScrollableTitle">Search Your Content</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>		 
+            <div class="modal-body">
+               <div class="login-form-modal">
+                  <form class="themeix-search-form" action="#">
+                     <div class="input-group">
+                        <input type="search" id="search-input" class="form-control" placeholder="Type Your Courses Name "
+                           aria-label="Search" required="">
+                  
+                     </div>
+                  </form>
+                  <div id="results-container"></div>
+
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+   <div class="themeix-header-navigation bg-color">
+      <div class="container">
+         <div class="d-flex justify-content-between">
+            <div class="themeix-logo">
+               <a class="themeix-brand" href="{{site.url}}"><img src="{{site.logo_url}}" alt="{{site.title}}" /></a>
+            </div>
+            <nav class="themeix-menu">
+               {% include navigation.html %}
+            </nav>
+            <div class="search-icon">
+               <a class="top-sign-btn" href="#" data-toggle="modal" data-target="#login-modal"><i
+                     class="fa fa-search"></i></a>
+            </div>
+         </div>
+      </div>
+   </div>
+</header>
+<!-- End Themeix Header -->
