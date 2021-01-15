@@ -22,6 +22,10 @@
                {% if site.pinterest_url %}
                <a class="pinterest" href="{{site.pinterest_url}}"> <i class="fa fa-pinterest"></i></a>
                {% endif %}
+
+               <!--{% if site.tel_num %}
+               <p class="top-content"> {{site.tel_num}}</p>
+               {% endif %}-->
             </div>
          </div>
       </div>
@@ -36,14 +40,14 @@
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
-      </div>		 
+      </div>
             <div class="modal-body">
                <div class="login-form-modal">
                   <form class="themeix-search-form" action="#">
                      <div class="input-group">
                         <input type="search" id="search-input" class="form-control" placeholder="Type Your Courses Name "
                            aria-label="Search" required="">
-                  
+
                      </div>
                   </form>
                   <div id="results-container"></div>
@@ -62,10 +66,7 @@
             <nav class="themeix-menu">
                {% include navigation.html %}
             </nav>
-            <div class="search-icon">
-               <a class="top-sign-btn" href="#" data-toggle="modal" data-target="#login-modal"><i
-                     class="fa fa-search"></i></a>
-            </div>
+
          </div>
       </div>
    </div>

@@ -1,8 +1,8 @@
-- title: Home
+- title: Inicio
   url: /
-- title: About
+- title: Conócenos
   url: /about
-- title: Courses
+- title: Oferta educativa
   url: /#
   sublinks:
   - title: Course Grid
@@ -19,7 +19,7 @@
     url: /course-list-right-sidebar
   - title: Course Details
     url: /courses/digital-strategy/
-- title: Lessons
+- title: Aspirantes
   url: /#
   sublinks:
   - title: Lesson Right Sidebar
@@ -28,7 +28,7 @@
     url: /lessons/basic-knowledge-about-application/
   - title: Lesson Full Width
     url: /lessons/basic-knowledge-about-software-development/
-- title: Pages
+- title: Estudiantes
   url: /#
   sublinks:
   - title: Events
@@ -39,7 +39,7 @@
     url: /all-instructors
   - title: 404
     url: /404
-- title: Blog
+- title: Egresados
   url: /blog
   sublinks:
   - title: Blog Right Sidebar
@@ -48,6 +48,6 @@
     url: /blog-left
   - title: Blog Details
     url: /megento/2019/09/24/this-weeks-top-stories-about-hardwork.html
-- title: Contact
-  url: /contact      
+- title: Certificaciones
+  url: /contact
   

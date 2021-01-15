@@ -533,7 +533,7 @@ iframe {
 		background-color: transparent;
 		border: 0;
 		a {
-			padding: 40px 25px;
+			padding: 40px 18px;
 			font-size: 16px;
 			font-weight: 600;
 			color: $text-color;
@@ -844,21 +844,46 @@ section {
 		border-radius: 320px;
 		
 		background-clip: padding-box;
-		-webkit-animation: waves 3s ease-in-out infinite;
-		animation: waves 3s ease-in-out infinite;
+		-webkit-animation: waves 5s ease-in-out infinite;
+		animation: waves 5s ease-in-out infinite;
 	}
 	.wave-1 {
 		-webkit-animation-delay: 0s;
 		animation-delay: 0s;
 	}
 	.wave-2 {
+		-webkit-animation-delay: 0.5s;
+		animation-delay: 0.5s;
+	}
+	.wave-3 {
 		-webkit-animation-delay: 1s;
 		animation-delay: 1s;
 	}
-	.wave-3 {
+	.wave-4 {
+		-webkit-animation-delay: 1.5s;
+		animation-delay: 1.5s;
+	}
+	.wave-5 {
 		-webkit-animation-delay: 2s;
 		animation-delay: 2s;
 	}
+	.wave-6 {
+		-webkit-animation-delay: 2.5s;
+		animation-delay: 2.5s;
+	}
+	.wave-7 {
+		-webkit-animation-delay: 3s;
+		animation-delay: 3s;
+	}
+	.wave-8 {
+		-webkit-animation-delay: 3.5s;
+		animation-delay: 3.5s;
+	}
+	.wave-9 {
+		-webkit-animation-delay: 4s;
+		animation-delay: 4s;
+	}
+
 }
 @-webkit-keyframes waves {
 	0% {
@@ -1198,7 +1223,7 @@ div {
 		margin-bottom: 0;
 	}
 	a {
-		color: $primary-color;
+		color: $primary-color2;
 	}
 }
 .instructors-details-img {
