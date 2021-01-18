@@ -498,7 +498,7 @@ iframe {
     line-height: 60px;
     margin-bottom: 30px; }
     .themeix-slider-content h1 span {
-      color: #0d009a; }
+      color: #e20613; }
   .themeix-slider-content p {
     font-size: 18px;
     line-height: 30px;
@@ -1235,13 +1235,13 @@ div.zabuto_calendar .table tr td {
   .popular-course-post:hover {
     box-shadow: 0 2px 30px rgba(210, 212, 222, 0.6); }
   .popular-course-post .popular-course-content h5 {
-    border-bottom: 1px solid #EDF1F4;
+    border-bottom: 1px solid #45567c;
     margin: 0;
     font-size: 18px;
-    color: #45567c;
+    color: #ffffff;
     font-weight: 700;
     padding: 15px;
-    background: #ffffff; }
+    background: #45567c; }
   .popular-course-post .popular-course-content p {
     padding: 15px;
     margin-bottom: 0; }

@@ -638,7 +638,7 @@ iframe {
 		line-height: 60px;
 		margin-bottom: 30px;
 		span {
-			color: $primary-color;
+			color: #e20613;
 		}
 	}
 	p {
@@ -1548,13 +1548,13 @@ div {
 		
 
 		h5 {
-			border-bottom: 1px solid $grey-color;
+			border-bottom: 1px solid $text-color;
 			margin: 0;
 			font-size: 18px;
-			color: $text-color;
+			color: $white-color;
 			font-weight: 700;
 			padding: 15px;
-			background: $white-color;
+			background: $text-color;
 		}
 		p {
 			padding: 15px;
