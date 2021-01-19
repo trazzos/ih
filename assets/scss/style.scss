@@ -485,6 +485,20 @@ iframe {
 		z-index: 2;
 	}
 }
+.section-overlay-three {
+	position: relative;
+	z-index: 1;
+	&:before {
+		content: "";
+		position: absolute;
+		background-color: rgba(255, 255, 255, 0.70);
+		left: 0;
+		top: 0;
+		width: 100%;
+		height: 100%;
+		z-index: 2;
+	}
+}
 .themeix-header-top {
 	.top-content {
 		margin: 0;
@@ -1548,13 +1562,13 @@ div {
 		
 
 		h5 {
-			border-bottom: 1px solid $text-color;
+			border-bottom: 1px solid $primary-color;
 			margin: 0;
 			font-size: 18px;
 			color: $white-color;
 			font-weight: 700;
 			padding: 15px;
-			background: $text-color;
+			background: $primary-color;
 		}
 		p {
 			padding: 15px;

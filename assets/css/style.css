@@ -377,6 +377,19 @@ iframe {
     height: 100%;
     z-index: 2; }
 
+.section-overlay-three {
+  position: relative;
+  z-index: 1; }
+  .section-overlay-three:before {
+    content: "";
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.7);
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2; }
+
 .themeix-header-top .top-content {
   margin: 0;
   font-size: 16px;
@@ -1235,13 +1248,13 @@ div.zabuto_calendar .table tr td {
   .popular-course-post:hover {
     box-shadow: 0 2px 30px rgba(210, 212, 222, 0.6); }
   .popular-course-post .popular-course-content h5 {
-    border-bottom: 1px solid #45567c;
+    border-bottom: 1px solid #0d009a;
     margin: 0;
     font-size: 18px;
     color: #ffffff;
     font-weight: 700;
     padding: 15px;
-    background: #45567c; }
+    background: #0d009a; }
   .popular-course-post .popular-course-content p {
     padding: 15px;
     margin-bottom: 0; }
