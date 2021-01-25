@@ -19,11 +19,12 @@ cover_image: /assets/images/blog-img-13.jpg
 # mailclimp_url: 'https://themeix.us16.list-manage.com/subscribe/post?u=307862c135e4548eecf86f389&amp;id=4784863884'
 # dribble_url: https://dribble.com/themeix
 facebook_url: https://facebook.com/ihjaimesabines
-# instagram_url: https://instagram.com/themeix
+instagram_url: https://instagram.com/ihjaimesabines
 # twitter_url: https://twitter.com/themeix_com
 # linkedin_url: https://linkedin.com/themeix
 # pinterest_url: https://pinterest.com/themeix
 tel_num: 961 604 1539
+sistema_educacion: https://app.ihjaimesabines.edu.mx/
 
 
 # Build settings
@@ -98,7 +99,11 @@ collections:
   instructors:
     title: Instructors
     output: true
-    permalink: /instructors/:path/    
+    permalink: /instructors/:path/
+  directivos:
+      title: Directivos
+      output: true
+      permalink: /directivos/:path/
   lessons:
     title: Lessons
     output: true

@@ -351,6 +351,29 @@ iframe {
     border: 2px solid #45567c !important;
     color: #ffffff !important; }
 
+.themeix-btn2-ih {
+  background-color: transparent;
+  border: 2px solid #EDF1F4;
+  border-radius: 4px;
+  padding: 10px 30px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+  text-transform: capitalize;
+  color: #EDF1F4; }
+  .themeix-btn2-ih:hover {
+    background-color: #45567c !important;
+    border: 2px solid #45567c !important;
+    color: #ffffff !important; }
+  .themeix-btn2-ih:focus {
+    background-color: #45567c !important;
+    border: 2px solid #45567c !important;
+    color: #ffffff !important; }
+  .themeix-btn2-ih:active {
+    background-color: #45567c !important;
+    border: 2px solid #45567c !important;
+    color: #ffffff !important; }
+
 .section-overlay {
   position: relative;
   z-index: 1; }
@@ -406,6 +429,16 @@ iframe {
   .themeix-header-top .top-sign-btn i {
     margin-right: 10px; }
 
+.themeix-header-top .top-sign-btn-ih {
+  margin: 0;
+  font-size: 14px;
+  color: #ffffff;
+  background-color: #45567c;
+  padding: 5px 8px;
+  display: block; }
+  .themeix-header-top .top-sign-btn-ih i {
+    margin-right: 10px; }
+
 .themeix-header-navigation {
   position: relative; }
   .themeix-header-navigation .menu-collapser {
@@ -415,8 +448,8 @@ iframe {
     width: auto; }
   .themeix-header-navigation .themeix-brand {
     display: block;
-    padding-top: 28px;
-    padding-bottom: 28px; }
+    padding-top: 8px;
+    padding-bottom: 8px; }
   .themeix-header-navigation .collapse-button {
     background-color: transparent; }
     .themeix-header-navigation .collapse-button .icon-bar {
@@ -512,21 +545,29 @@ iframe {
     margin-bottom: 30px; }
     .themeix-slider-content h1 span {
       color: #e20613; }
+    .themeix-slider-content h1 span2 {
+      color: #EDF1F4; }
   .themeix-slider-content p {
     font-size: 18px;
     line-height: 30px;
-    margin-bottom: 60px; }
+    margin-bottom: 60px;
+    color: #EDF1F4; }
 
 .themeix-banner-wells {
-  background-color: #EDF1F4; }
+  background-color: #EDF1F4;
+  background-image: url(../images/banner-wells-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
 
 .themeix-wells-container {
   position: relative;
   z-index: 3; }
   .themeix-wells-container h2 {
-    font-size: 30px;
+    font-size: 60px;
     margin-bottom: 10px;
-    font-weight: 400; }
+    font-weight: 600;
+    color: #EDF1F4; }
   .themeix-wells-container .breadcrumb {
     padding: 0;
     background-color: transparent;
@@ -1004,6 +1045,14 @@ div.zabuto_calendar .table tr td {
 
 .instructors-details p {
   margin-bottom: 30px; }
+
+.instructors-details h2a {
+  font-size: 56px;
+  margin-bottom: 10px;
+  color: #0d009a; }
+
+.instructors-details h2b {
+  font-size: 56px; }
 
 .instructors-details-review {
   margin-bottom: 30px; }
@@ -1499,7 +1548,8 @@ div.zabuto_calendar .table tr td {
     transform: rotate(180deg); } }
 
 .themeix-counter {
-  background-color: #EDF1F4; }
+  background-color: #000000;
+  background-image: url(../images/counter-img.jpg); }
 
 .themeix-counter-wrapper {
   z-index: 3;
@@ -1509,11 +1559,13 @@ div.zabuto_calendar .table tr td {
     font-size: 36px;
     margin-bottom: 0;
     letter-spacing: 2px;
-    font-weight: 400; }
+    font-weight: 400;
+    color: #ffffff; }
   .themeix-counter-wrapper p {
     font-size: 14px;
     margin-bottom: 0;
-    font-weight: 300; }
+    font-weight: 300;
+    color: #ffffff; }
 
 .themeix-resgister {
   background-position: center;
@@ -2178,6 +2230,10 @@ div.zabuto_calendar .table tr td {
     font-size: 15px;
     color: #8e98ad;
     margin-bottom: 0; }
+  .contact-info .contact-info-content pih {
+    font-size: 20px;
+    color: #8e98ad;
+    margin-bottom: 0; }
 
 .contact-form .form-group {
   margin-bottom: 20px; }
@@ -2260,6 +2316,26 @@ div.zabuto_calendar .table tr td {
       font-size: 16px;
       word-wrap: break-word; }
   .contact-resgister-info-wrapper:last-child {
+    margin-bottom: 0; }
+
+.valores-resgister-info-wrapper {
+  display: table;
+  margin-bottom: 5px;
+  width: 100%; }
+  .valores-resgister-info-wrapper .contact-resgister-info-logo {
+    width: 60px;
+    float: left; }
+    .valores-resgister-info-wrapper .contact-resgister-info-logo img {
+      margin-top: 0px; }
+  .valores-resgister-info-wrapper .contact-resgister-info-content {
+    width: calc(100% - 60px);
+    float: left; }
+    .valores-resgister-info-wrapper .contact-resgister-info-content p {
+      margin-bottom: 0;
+      color: #ffffff;
+      font-size: 16px;
+      word-wrap: break-word; }
+  .valores-resgister-info-wrapper:last-child {
     margin-bottom: 0; }
 
 .contact-resgister-form h2 {
@@ -2812,6 +2888,10 @@ form.sidebar-search.sidebar-widget {
 
 a.facebook {
   background-color: #4267b2;
+  color: #ffffff; }
+
+a.login-ih {
+  background-color: #45567c;
   color: #ffffff; }
 
 a.twitter {

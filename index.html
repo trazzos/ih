@@ -5,18 +5,18 @@ enabled: true
 ---
 
 <!-- Start Themeix Slider -->
-<section class="themeix-slider section-overlay-three bg-color">
+<section class="themeix-slider section-overlay bg-color">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 mx-auto">
+            <div class="col-md-6">
                 {% for slide in site.data.banner %}
-                <div class="themeix-slider-content text-center">
+                <div class="themeix-slider-content">
                     <h1> {{slide.title}}</h1>
                     <p>{{slide.subtitle}}
                     </p>
                     <div class="themeix-slider-btn">
                         <a class="themeix-btn btn btn-primary" href="{{slide.course_url}}">{{slide.course_button_label}}</a>
-                        <a class="themeix-btn2 btn btn-primary" href="{{slide.contact_url}}">{{slide.contact_label}}</a>
+                        <a class="themeix-btn2-ih btn btn-primary" href="{{slide.contact_url}}">{{slide.contact_label}}</a>
                     </div>
                 </div>
                 {% endfor %}
@@ -49,6 +49,33 @@ enabled: true
 
 {% include counter-section.html %}
 
+
+<!-- Start Themeix Videos COVID-->
+<section class="themeix-popular section-spacing bg-color">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 m-auto">
+                <div class="themeix-section-title text-center">
+                    <h2>Medidas de prevención COVID</h2>
+                    <div class="section-border"></div>
+                </div>
+            </div>
+        </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="popular-course-post wow fadeIn" data-wow-duration="2s" >
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/7XGhAUOzY2c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="popular-course-post wow fadeIn" data-wow-duration="2s" >
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/48LQtiksE6M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+            </div>
+    </div>
+</section>
 <!-- Start Themeix  Feature-->
 <section class="themeix-events section-spacing bg-color">
     <div class="container">
