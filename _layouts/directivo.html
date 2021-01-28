@@ -1,0 +1,30 @@
+---
+layout: default
+---
+{% assign instructor = site.instructors | where: 'instructor_id', page.instructor_id | first %}
+{% include page-title.html %}
+<!-- Start Themeix Feature-->
+<div class="themeix-feature bg-color section-spacing">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-4">
+            <div class="instructor-image">
+                  <img src="{{instructor.image}}" alt="{{instructor.name}}">
+            </div>
+         </div>
+         <div class="col-md-8">
+            <div class="instructors-details ">
+               <h2>Hola, soy <h2a> {{instructor.name}}</h2a></h2>
+               <h6>{{instructor.designation}}</h6>
+               <p>{{instructor.bio}}
+               </p>
+
+
+
+            </div>
+         </div>
+      </div>
+
+   </div>
+</div>
+<!-- End Themeix Feature-->
