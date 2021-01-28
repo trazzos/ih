@@ -1,18 +1,17 @@
 ---
 layout: default
-title: Gallery V1
-permalink: /gallery-V1
+title: Instalaciones
+permalink: /Instalaciones
 ---
-{% include page-title.html %}    
+{% include page-title.html %}
       <!-- Start Themeix Feature-->
       <div class="themeix-feature scb-minus-30 section-spacing bg-color">
          <div class="container">
             <div id="gallery-filter" class="button-group">
-               <button class="button is-checked" data-filter="*">All</button>
-               <button class="button" data-filter=".library">Library</button>
-               <button class="button" data-filter=".campus">Campus</button>
-               <button class="button" data-filter=".celebration">Celebration</button>
-               <button class="button" data-filter=".education">Education</button>
+               <button class="button is-checked" data-filter="*">Todo</button>
+               <button class="button" data-filter=".infraestructura">Infraestructura</button>
+               <button class="button" data-filter=".deportivas">Áreas deportivas</button>
+               <button class="button" data-filter=".comunes">Áreas comunes</button>
             </div>
             <div class="gallery-filter-wrapper row">
                   {% assign counter = 0 %}
@@ -31,7 +30,7 @@ permalink: /gallery-V1
                         </div>
                      </div>
                {% endfor %}
-               
+
             </div>
          </div>
       </div>

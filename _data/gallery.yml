@@ -1,31 +1,99 @@
-- tab_name: Education
-  tab_class: education
-  image: /assets/images/gallery/01.jpg
+- tab_name: Infraestructura
+  tab_class: infraestructura
+  image: /assets/images/galeria/infraestructura.jpg
 
-- tab_name: Library
-  tab_class: library education
-  image: /assets/images/gallery/02.jpg
+- tab_name: Áreas deportivas
+  tab_class: deportivas
+  image: /assets/images/galeria/deportivas.jpg
 
-- tab_name: Celebration
-  tab_class: celebration campus
-  image: /assets/images/gallery/03.jpg
+- tab_name: Áreas comunes
+  tab_class: comunes
+  image: /assets/images/galeria/comunes_6.jpg
 
-- tab_name: Campus
-  tab_class: campus celebration
-  image: /assets/images/gallery/04.jpg
+- tab_name: Áreas comunes
+  tab_class: comunes
+  image: /assets/images/galeria/comunes.jpg
 
-- tab_name: Education
-  tab_class: education library
-  image: /assets/images/gallery/05.jpg
+- tab_name: Infraestructura
+  tab_class: infraestructura
+  image: /assets/images/galeria/infraestructura_1.jpg
 
-- tab_name: Campus
-  tab_class: campus celebration education
-  image: /assets/images/gallery/06.jpg
+- tab_name: Áreas deportivas
+  tab_class: deportivas
+  image: /assets/images/galeria/deportivas_1.jpg
 
-- tab_name: Library
-  tab_class: library campus
-  image: /assets/images/gallery/07.jpg
+- tab_name: Infraestructura
+  tab_class: infraestructura
+  image: /assets/images/galeria/infraestructura_2.jpg
 
-- tab_name: Education
-  tab_class: education library
-  image: /assets/images/gallery/08.jpg
+- tab_name: Áreas deportivas
+  tab_class: deportivas
+  image: /assets/images/galeria/deportivas_2.jpg
+
+- tab_name: Áreas comunes
+  tab_class: comunes
+  image: /assets/images/galeria/comunes_2.jpg
+
+- tab_name: Áreas comunes
+  tab_class: comunes
+  image: /assets/images/galeria/comunes_3.jpg
+
+- tab_name: Infraestructura
+  tab_class: infraestructura
+  image: /assets/images/galeria/infraestructura_3.jpg
+
+- tab_name: Áreas deportivas
+  tab_class: deportivas
+  image: /assets/images/galeria/deportivas_3.jpg
+
+- tab_name: Infraestructura
+  tab_class: infraestructura
+  image: /assets/images/galeria/infraestructura_4.jpg
+
+- tab_name: Áreas deportivas
+  tab_class: deportivas
+  image: /assets/images/galeria/deportivas_4.jpg
+
+- tab_name: Áreas comunes
+  tab_class: comunes
+  image: /assets/images/galeria/comunes_4.jpg
+
+- tab_name: Áreas comunes
+  tab_class: comunes
+  image: /assets/images/galeria/comunes_5.jpg
+
+- tab_name: Infraestructura
+  tab_class: infraestructura
+  image: /assets/images/galeria/infraestructura_5.jpg
+
+- tab_name: Áreas comunes
+  tab_class: comunes
+  image: /assets/images/galeria/comunes_7.jpg
+
+- tab_name: Infraestructura
+  tab_class: infraestructura
+  image: /assets/images/galeria/infraestructura_6.jpg
+
+- tab_name: Áreas comunes
+  tab_class: comunes
+  image: /assets/images/galeria/comunes_8.jpg
+
+- tab_name: Infraestructura
+  tab_class: infraestructura
+  image: /assets/images/galeria/infraestructura_7.jpg
+
+- tab_name: Infraestructura
+  tab_class: infraestructura
+  image: /assets/images/galeria/infraestructura_8.jpg
+
+- tab_name: Áreas comunes
+  tab_class: comunes
+  image: /assets/images/galeria/comunes_9.jpg
+
+- tab_name: Infraestructura
+  tab_class: infraestructura
+  image: /assets/images/galeria/infraestructura_9.jpg
+
+- tab_name: Infraestructura
+  tab_class: infraestructura
+  image: /assets/images/galeria/infraestructura_10.jpg
