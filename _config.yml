@@ -108,8 +108,13 @@ collections:
   lessons:
     title: Lessons
     output: true
-    permalink: /lessons/:path/    
-    
+    permalink: /lessons/:path/
+
+  educacion:
+      title: Educacion
+      output: true
+      permalink: /educacion/:path/
+
 feed:
   collections:
     posts:

@@ -1,0 +1,69 @@
+---
+layout: default
+---   
+    {% include page-title.html %}
+    <!-- Start Themeix Course Info -->
+<br><br><br>
+    <!-- End Themeix  Course Info-->
+    <!-- Start Themeix  Single-->
+    <section class="themeix-Single bg-color">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-7">
+                    <div class="themeix-single pb-5">
+                        <div class="themeix-single-thumb"><img src="{{page.image}}" alt="{{page.title}}" /></div>
+							<div class="entry-content">
+								{{content}}
+							</div>
+
+                    </div>					
+                </div>
+                <div class="col-lg-4 col-md-5">
+                    <div class="themeix-sidebar-left">
+                       <h4 class="sidebar-title">Educación básica</h4>
+                       <div class="sidebar-recent sidebar-widget">
+
+                          <div class="recent-container">
+                             <div class="recent-image">
+                                <img src="/assets/images/header-logo.png" alt="Maternal">
+                             </div>
+                             <div class="recent-content">
+                                <a href="/educacion/maternal">Maternal</a>
+                             </div>
+                          </div>
+
+                          <div class="recent-container">
+                             <div class="recent-image">
+                                <img src="/assets/images/header-logo.png" alt="Maternal">
+                             </div>
+                             <div class="recent-content">
+                                <a href="/educacion/preescolar">Preescolar</a>
+                             </div>
+                          </div>
+
+                          <div class="recent-container">
+                             <div class="recent-image">
+                                <img src="/assets/images/header-logo.png" alt="Maternal">
+                             </div>
+                             <div class="recent-content">
+                                <a href="/educacion/primaria">Primaria</a>
+                             </div>
+                          </div>
+
+                          <div class="recent-container">
+                             <div class="recent-image">
+                                <img src="/assets/images/header-logo.png" alt="Maternal">
+                             </div>
+                             <div class="recent-content">
+                                <a href="/educacion/secundaria">Secundaria</a>
+                             </div>
+                          </div>
+
+                       </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Themeix Single -->
+  {% include subscribe.html %}
