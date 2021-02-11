@@ -1383,6 +1383,52 @@ div.zabuto_calendar .table tr td {
   .themeix-rating-area ul.popular-course-review.list-inline {
     float: left; }
 
+.popular-course-post-int {
+  margin-bottom: 30px;
+  box-shadow: 0 0 38px -33px;
+  border-radius: 4px;
+  border: 1px solid #ececec; }
+  .popular-course-post-int:hover {
+    box-shadow: 0 2px 30px rgba(210, 212, 222, 0.6); }
+  .popular-course-post-int .popular-course-content h5 {
+    border-bottom: 1px solid #45567c;
+    margin: 0;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 700;
+    padding: 15px;
+    background: #45567c; }
+  .popular-course-post-int .popular-course-content p {
+    padding: 15px;
+    margin-bottom: 0; }
+  .popular-course-post-int .popular-course-review {
+    margin-bottom: 0;
+    margin-top: 0; }
+    .popular-course-post-int .popular-course-review li {
+      color: #ffc208;
+      font-size: 14px;
+      margin-right: 2px; }
+      .popular-course-post-int .popular-course-review li:last-child {
+        color: #ffdd74; }
+  .popular-course-post-int .popular-course-student {
+    margin-bottom: 0;
+    margin: 0;
+    padding: 0; }
+    .popular-course-post-int .popular-course-student li {
+      font-size: 13px;
+      color: #939292;
+      margin-right: 10px; }
+      .popular-course-post-int .popular-course-student li:last-child {
+        margin-right: 0 !important; }
+      .popular-course-post-int .popular-course-student li i {
+        margin-right: 5px; }
+  .popular-course-post-int .popular-course-price:hover {
+    color: #ffffff; }
+  .popular-course-post-int .themeix-subscribe-wrapper h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #ffffff; }
+
 .popular-course-post2 {
   margin-bottom: 25px;
   padding-bottom: 25px;
