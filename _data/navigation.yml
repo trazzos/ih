@@ -42,13 +42,19 @@
     url: https://app.ihjaimesabines.edu.mx/login
   - title: Acceso a biblioteca virtual
     url: https://app.ihjaimesabines.edu.mx/login
+  - title: Revistas científicas
+    url: /revistas-cientificas
   - title: Servicios de apoyos adicionales
     url: /servicios-adicionales
+  - title: Normatividad
+    url: /normatividad
 - title: Egresados
   url: /#
   sublinks:
   - title: Seguimiento de egresados
     url: /seguimiento-egresados
+  - title: Bolsa de trabajo
+    url: https://canacotuxtla.org.mx/bolsa-trabajo.php
 - title: Certificaciones
   url: /#
   sublinks:
