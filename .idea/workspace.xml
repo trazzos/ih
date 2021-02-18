@@ -2,19 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="af6ed913-00b1-4018-a163-4696e8272177" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/becas.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/centro-evaluador.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/normatividad.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/politicas-privacidad.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/registro.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/revistas-cientificas.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seguimiento-egresados.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seguimiento-encuesta.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/seguimiento-registro.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/servicios-adicionales.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_includes/sidebar_ih.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_layouts/post_ih.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/navigation.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/navigation.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/why-chose-us.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/why-chose-us.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_educacion/ecosonografia_abdominal.html" beforeDir="false" afterPath="$PROJECT_DIR$/_educacion/ecosonografia_abdominal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_educacion/enfermeria_obstetrica.html" beforeDir="false" afterPath="$PROJECT_DIR$/_educacion/enfermeria_obstetrica.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_educacion/sindrome_metabolico.html" beforeDir="false" afterPath="$PROJECT_DIR$/_educacion/sindrome_metabolico.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_includes/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/footer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/pagination.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/pagination.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/post-card.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/post-card.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/social-share.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/social-share.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/subscribe.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/subscribe.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-03-02-will-design-skill-ever-rule-the-world.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-04-02-the-next-big-thing-in-professional-design.html" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2021-01-27-Firma-Cruz-Roja.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-05-02-should-you-be-using-jquery-3-4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-06-01-this-weeks-top-stories-about-hardwork.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-07-02-create-consistent-products-and-brand-messages.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-08-02-design-idea-explained-in-fewer-than-140-characters.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-09-02-9-ways-to-design-for-human-error.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-10-02-the-ux-of-sound-designing-audio-experiences.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-11-02-how-to-code-a-click-to-tweet-button.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-12-02-why-the-biggest-myths-about-technology-may-actually-be-right.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-01-02-ecommerce-metrics-that-really-matter.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-02-02-the-worst-videos-of-all-time-about-technology.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-03-02-ten-10-terrible-ways-to-spend-your-money.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-04-02-website-design-templates-expectations-vs-reality.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-05-02-13-things-about-sports-you-may-not-have-known.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2019-06-02-why-it-s-easier-to-succeed-with-ghost-than-you-might-think.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/banner_ecosonografia_abdominal.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/banner_enfermeria_obstetrica.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/banner_sindrome_metabolico.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/ih/ebasica.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/ih/ebasica.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/ih/ecosonografia_abdominal.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/ih/ecosonografia_abdominal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/ih/emediasuperior.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/ih/emediasuperior.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/ih/enfermeria_obstetrica.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/ih/enfermeria_obstetrica.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/ih/licenciatura.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/ih/licenciatura.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/ih/posgrado.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/ih/posgrado.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/images/ih/sindrome_metabolico.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/images/ih/sindrome_metabolico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diplomados.html" beforeDir="false" afterPath="$PROJECT_DIR$/diplomados.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
@@ -25,19 +52,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>forum-category</find>
-      <find>category</find>
-      <find>forum</find>
-      <find>tbody</find>
-      <find>table</find>
-      <find>zabuto_calendar</find>
-      <find>calendar-month-header</find>
-      <find>td</find>
-      <find>&gt;</find>
       <find>forum-table</find>
       <find>column</find>
       <find>.column</find>
@@ -59,7 +77,19 @@
       <find>themeix-btn2</find>
       <find>btn-primary</find>
       <find>btn</find>
+      <find>documents</find>
+      <find>alert-success</find>
+      <find>alert</find>
+      <find>contact__msg</find>
+      <find>form_action</find>
+      <find>mailclimp_url</find>
+      <find>paginator</find>
+      <find>posts</find>
+      <find>blog-right</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -67,28 +97,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/educacion-media-superior.html" />
-        <option value="$PROJECT_DIR$/_educacion/preparatoria_tres.html" />
-        <option value="$PROJECT_DIR$/_includes/course-educacionbasica.html" />
-        <option value="$PROJECT_DIR$/_includes/course-licenciaturas.html" />
-        <option value="$PROJECT_DIR$/_educacion/contaduria_publica.html" />
-        <option value="$PROJECT_DIR$/_educacion/derecho.html" />
-        <option value="$PROJECT_DIR$/_educacion/enfermeria.html" />
-        <option value="$PROJECT_DIR$/_educacion/psicologia_clinica.html" />
-        <option value="$PROJECT_DIR$/_educacion/psicologia_general.html" />
-        <option value="$PROJECT_DIR$/_educacion/trabajo_social.html" />
-        <option value="$PROJECT_DIR$/_educacion/administracion_empresas.html" />
         <option value="$PROJECT_DIR$/_educacion/informatica_administrativa.html" />
         <option value="$PROJECT_DIR$/_educacion/ingenieria_industrial.html" />
         <option value="$PROJECT_DIR$/posgrados.html" />
         <option value="$PROJECT_DIR$/_includes/course-posgrados.html" />
         <option value="$PROJECT_DIR$/licenciaturas.html" />
-        <option value="$PROJECT_DIR$/_includes/course-diplomados.html" />
-        <option value="$PROJECT_DIR$/_educacion/sindrome_metabolico.html" />
         <option value="$PROJECT_DIR$/_educacion/enfermeria_obstretica.html" />
-        <option value="$PROJECT_DIR$/_educacion/enfermeria_obstetrica.html" />
-        <option value="$PROJECT_DIR$/_educacion/ecosonografia_abdominal.html" />
-        <option value="$PROJECT_DIR$/diplomados.html" />
         <option value="$PROJECT_DIR$/assets/scss/style.scss" />
         <option value="$PROJECT_DIR$/especialidades.html" />
         <option value="$PROJECT_DIR$/_includes/course-especialidades.html" />
@@ -113,11 +127,27 @@
         <option value="$PROJECT_DIR$/seguimiento-encuesta.html" />
         <option value="$PROJECT_DIR$/seguimiento-registro.html" />
         <option value="$PROJECT_DIR$/centro-evaluador.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/_data/navigation.yml" />
         <option value="$PROJECT_DIR$/revistas-cientificas.html" />
-        <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/politicas-privacidad.html" />
+        <option value="$PROJECT_DIR$/_data/why-chose-us.yml" />
+        <option value="$PROJECT_DIR$/_includes/footer.html" />
+        <option value="$PROJECT_DIR$/form_action.php" />
+        <option value="$PROJECT_DIR$/_config.yml" />
+        <option value="$PROJECT_DIR$/_includes/subscribe.html" />
+        <option value="$PROJECT_DIR$/_educacion/ecosonografia_abdominal.html" />
+        <option value="$PROJECT_DIR$/_educacion/enfermeria_obstetrica.html" />
+        <option value="$PROJECT_DIR$/_educacion/sindrome_metabolico.html" />
+        <option value="$PROJECT_DIR$/diplomados.html" />
+        <option value="$PROJECT_DIR$/_includes/course-diplomados.html" />
+        <option value="$USER_HOME$/Desktop/form_action.php" />
+        <option value="$PROJECT_DIR$/_includes/pagination.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/_includes/post-card.html" />
+        <option value="$PROJECT_DIR$/_layouts/post_ih.html" />
+        <option value="$PROJECT_DIR$/_includes/sidebar_ih.html" />
+        <option value="$PROJECT_DIR$/_posts/2021-01-27-Firma-Cruz-Roja.html" />
+        <option value="$PROJECT_DIR$/_includes/social-share.html" />
       </list>
     </option>
   </component>
@@ -142,6 +172,11 @@
             <path>
               <item name="ih" type="b2602c69:ProjectViewProjectNode" />
               <item name="ih" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ih" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ih" type="462c0819:PsiDirectoryNode" />
+              <item name="_posts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -168,11 +203,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\trazzos\ih" />
-      <recent name="C:\trazzos\ih\_educacion" />
       <recent name="C:\trazzos\ih\_includes" />
       <recent name="C:\trazzos\ih\_layouts" />
-      <recent name="C:\Trazzos\ih" />
+      <recent name="C:\trazzos\ih\_posts" />
+      <recent name="C:\trazzos\ih" />
+      <recent name="C:\trazzos\ih\_educacion" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -219,16 +254,19 @@
       <workItem from="1612981001983" duration="15039000" />
       <workItem from="1613090400793" duration="7405000" />
       <workItem from="1613233191540" duration="7837000" />
+      <workItem from="1613499004810" duration="5320000" />
+      <workItem from="1613604244207" duration="7033000" />
+      <workItem from="1613660923979" duration="591000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86151000" />
+    <option name="totallyTimeSpent" value="99095000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21346705" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22206303" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -248,6 +286,27 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21633238" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -259,168 +318,6 @@
     <state x="314" y="61" width="737" height="606" key="find.popup/0.0.1366.728/1366.0.1600.860@0.0.1366.728" timestamp="1611691973030" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_includes/course-card.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="10" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/course-posgrados.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="12" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="12" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_educacion/preparatoria_tres.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="104" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="104" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_educacion/enfermeria_obstretica.html" />
-    <entry file="file://$PROJECT_DIR$/_educacion/ecosonografia_abdominal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="125" selection-start-line="23" selection-start-column="125" selection-end-line="23" selection-end-column="125" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_educacion/sindrome_metabolico.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/licenciaturas.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="545">
-          <caret line="201" column="10" lean-forward="true" selection-start-line="7" selection-end-line="201" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_data/events.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="2" selection-start-line="23" selection-start-column="2" selection-end-line="23" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_educacion/enfermeria_pediatrica.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2244">
-          <caret line="132" column="49" selection-start-line="132" selection-start-column="49" selection-end-line="132" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_educacion/enfermeria_quirurgica.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="9" column="90" selection-start-line="9" selection-start-column="90" selection-end-line="9" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_educacion/enfermeria_salud_publica.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="93" selection-start-line="9" selection-start-column="93" selection-end-line="9" selection-end-column="93" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_educacion/enfermeria_terapia_intesiva.html" />
-    <entry file="file://$PROJECT_DIR$/_educacion/enfermeria_terapia_intensiva.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="101" selection-start-line="9" selection-start-column="101" selection-end-line="9" selection-end-column="101" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/especialidades.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/diplomados.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_educacion/maternal.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="220" lean-forward="true" selection-start-line="8" selection-end-line="8" selection-end-column="220" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_educacion/educacion_especial.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="186" column="27" selection-start-line="186" selection-start-column="27" selection-end-line="186" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_educacion/ciencias_educacion.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1394">
-          <caret line="144" column="31" selection-start-line="144" selection-start-column="31" selection-end-line="144" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_educacion/administracion_salud.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1922">
-          <caret line="118" column="49" selection-start-line="118" selection-start-column="49" selection-end-line="118" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_educacion/doctorado_ciencias_educacion.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="158" selection-start-line="158" selection-end-line="158" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/doctorados.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/maestrias.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="867">
-          <caret line="66" column="61" selection-start-line="66" selection-start-column="25" selection-end-line="66" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/course-maestrias.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
@@ -451,17 +348,6 @@
           <caret line="33" column="65" lean-forward="true" selection-start-line="33" selection-start-column="65" selection-end-line="33" selection-end-column="65" />
           <folding>
             <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#div#2;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/course-diplomados.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#div#1;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -548,31 +434,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_educacion/enfermeria_obstetrica.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="90" selection-start-line="15" selection-start-column="90" selection-end-line="15" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/style.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="85" column="9" selection-start-line="85" selection-start-column="6" selection-end-line="85" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/registro.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="211" column="8" selection-start-line="211" selection-start-column="8" selection-end-line="211" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -583,13 +448,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" selection-start-line="1" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1955">
-          <caret line="115" column="22" selection-start-line="115" selection-start-column="22" selection-end-line="115" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -672,5 +530,188 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_data/why-chose-us.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="97" selection-start-line="1" selection-start-column="97" selection-end-line="1" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/why-chose-us_ih.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/form_action.php" />
+    <entry file="file://$PROJECT_DIR$/_educacion/enfermeria_obstetrica.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_educacion/sindrome_metabolico.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="73" selection-start-line="18" selection-start-column="73" selection-end-line="18" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_educacion/ecosonografia_abdominal.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="96" selection-start-line="8" selection-start-column="96" selection-end-line="8" selection-end-column="96" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/course-diplomados.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="52" selection-start-line="21" selection-start-column="52" selection-end-line="21" selection-end-column="52" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#a#0;n#div#0;n#div#1;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/diplomados.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="88" column="18" selection-start-line="88" selection-start-column="18" selection-end-line="88" selection-end-column="18" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/subscribe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="30" selection-start-line="22" selection-start-column="30" selection-end-line="22" selection-end-column="30" />
+          <folding>
+            <element signature="n#style#0;n#form#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/form_action.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/scss/style.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="89" column="40" selection-start-line="89" selection-start-column="40" selection-end-line="89" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/pagination.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/search.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_data/footer-pages.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-03-02-will-design-skill-ever-rule-the-world.html" />
+    <entry file="file://$PROJECT_DIR$/blog-right.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-start-column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/sidebar.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/sidebar_ih.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/post_ih.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/social-share.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2021-01-27-Firma-Cruz-Roja.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/post-card.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3436">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#4;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="119" selection-start-line="18" selection-start-column="119" selection-end-line="18" selection-end-column="119" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-04-02-the-next-big-thing-in-professional-design.html" />
   </component>
 </project>
