@@ -8,7 +8,7 @@ title: Eduzone - Premium Jekyll Theme
 email: themeix@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Eduzone Responsive Static Jekyll Theme For Blogging.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/ih" # the subpath of your site, e.g. /blog
 url: "https://jekyll-eduzone.netlify.com/" # the base hostname & protocol for your site, e.g. https://example.com
 
 
