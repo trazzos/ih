@@ -1,183 +1,241 @@
 ---
 layout: default
 pagination:
-   enabled: true
+    enabled: true
 ---
 
 <!-- Start Themeix Slider -->
-<section class="themeix-slider section-overlay-two bg-color">
+<section class="themeix-slider section-overlay bg-color">
     <div class="container">
-       <div class="row">
-          <div class="col-md-10 mx-auto">
-             {% for slide in site.data.banner %}
-             <div class="themeix-slider-content text-center">
-                <h1> {{slide.title}}</h1>
-                <p>{{slide.subtitle}}
-                </p>
-                <div class="themeix-slider-btn">
-                   <a class="themeix-btn btn btn-primary" href="{{slide.course_url}}">{{slide.course_button_label}}</a>
-                   <a class="themeix-btn2 btn btn-primary" href="{{slide.contact_url}}">{{slide.contact_label}}</a>
+        <div class="row">
+            <div class="col-md-6">
+                {% for slide in site.data.banner %}
+                <div class="themeix-slider-content">
+                    <h1> {{slide.title}}</h1>
+                    <p>{{slide.subtitle}}
+                    </p>
+                    <div class="themeix-slider-btn">
+                        <a class="themeix-btn btn btn-primary" href="{{slide.course_url}}">{{slide.course_button_label}}</a>
+                        <a class="themeix-btn2-ih btn btn-primary" href="{{slide.contact_url}}">{{slide.contact_label}}</a>
+                    </div>
                 </div>
-             </div>
-             {% endfor %}
-          </div>
-       </div>
+                {% endfor %}
+            </div>
+        </div>
     </div>
- </section>
- <!-- End Themeix Slider -->
+</section>
+<!-- End Themeix Slider -->
 
 <!-- Start Themeix Popular-->
 <section class="themeix-popular section-spacing bg-color">
     <div class="container">
-       <div class="row">
-          <div class="col-md-8 m-auto">
-             <div class="themeix-section-title text-center">
-                <h2>Our Online Courses</h2>
-                <div class="section-border"></div>
-                <p>There are various kinds of courses available: from online courses to summer courses and intensive courses</p>
-             </div>
-          </div>
-       </div>
-       <div class="scb-minus-30">
-          <div class="row"> 
-             {% for course in site.courses %}
-                {% include course-card.html %}
-             {% endfor %}
-          </div>
-       </div>
-       {% include why-chose-us.html %}
+        <div class="row">
+            <div class="col-md-8 m-auto">
+                <div class="themeix-section-title text-center">
+                    <h2>OFERTA EDUCATIVA</h2>
+                    <div class="section-border"></div>
+                </div>
+            </div>
+        </div>
+        <div class="scb-minus-30">
+            <div class="row">
+                {% include course-card_ih.html %}
+            </div>
+        </div>
+        {% include why-chose-us_ih.html %}
     </div>
- </section>
- <!-- End Themeix Popular -->
+</section>
+<!-- End Themeix Popular -->
 
- {% include counter-section.html %}
+{% include counter-section.html %}
 
+
+<!-- Start Themeix Videos COVID-->
+<section class="themeix-popular section-spacing bg-color">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 m-auto">
+                <div class="themeix-section-title text-center">
+                    <h2>Medidas de prevención COVID</h2>
+                    <div class="section-border"></div>
+                </div>
+            </div>
+        </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="popular-course-post wow fadeIn" data-wow-duration="2s" >
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/7XGhAUOzY2c" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="popular-course-post wow fadeIn" data-wow-duration="2s" >
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/48LQtiksE6M" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+            </div>
+    </div>
+</section>
 <!-- Start Themeix  Feature-->
 <section class="themeix-events section-spacing bg-color">
     <div class="container">
-       <div class="themeix-section-title">
-          <h2>Upcoming Event</h2>
-          <div class="section-border left-border"></div>
-       </div>
-       <div class="upcoming-event-container">
-          {% assign counter = 0 %}
-          {% for event in site.data.events %}
-           {% assign counter = counter | plus:1 %}
-             <div class="upcoming-event-wrapper ">
+        <div class="themeix-section-title">
+            <h2>Próximos eventos</h2>
+            <div class="section-border left-border"></div>
+        </div>
+        <div class="upcoming-event-container">
+            {% assign counter = 0 %}
+            {% for event in site.data.events %}
+            {% assign counter = counter | plus:1 %}
+            <div class="upcoming-event-wrapper ">
                 <div class="row">
-                   <div class="col-md-8 col-sm-7">
-                      <div class="upcoming-event-details wow fadeIn" data-wow-duration="{{counter}}s">
-                         <div class="upcoming-event-logo">
-                            <h2>{{event.day}}</h2>
-                            <h5>{{event.month}}</h5>
-                         </div>
-                         <div class="upcoming-event-content">
-                            <h4>{{event.title}}</h4>
-                            <ul class="upcoming-event-meta list-inline">
-                               <li class="list-inline-item"><i class="fa fa-clock-o" aria-hidden="true"></i>{{event.time}}</li>
-                               <li class="list-inline-item"><i class="fa fa-map-marker" aria-hidden="true"></i>{{event.location}}</li>
-                            </ul>
-                            <a class="upcoming-event-btn" href="{{event.url}}">register</a>
-                         </div>
-                      </div>
-                   </div>
-                   <div class="col-md-4 col-sm-5">
-                      <div class="upcoming-event-thumb"><img src="{{event.image}}"
-                            alt="{{event.title}}" /></div>
-                   </div>
+                    <div class="col-md-8 col-sm-7">
+                        <div class="upcoming-event-details wow fadeIn" data-wow-duration="{{counter}}s">
+                            <div class="upcoming-event-logo">
+                                <h2>{{event.day}}</h2>
+                                <h5>{{event.month}}</h5>
+                            </div>
+                            <div class="upcoming-event-content">
+                                <h4>{{event.title}}</h4>
+                                <ul class="upcoming-event-meta list-inline">
+                                    <li class="list-inline-item"><i class="fa fa-clock-o" aria-hidden="true"></i>{{event.time}}</li>
+                                    <li class="list-inline-item"><i class="fa fa-map-marker" aria-hidden="true"></i>{{event.location}}</li>
+                                </ul>
+                                <!--<a class="upcoming-event-btn" href="{{event.url}}">register</a>--!>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-5">
+                        <div class="upcoming-event-thumb"><img src="{{event.image}}"
+                                                               alt="{{event.title}}" /></div>
+                    </div>
                 </div>
-             </div>
-          {% endfor %}
-       </div>
+            </div>
+            {% endfor %}
+        </div>
     </div>
- </section>
- <!-- End Themeix Feature -->
+</section>
+<!-- End Themeix Feature -->
 
-<!-- Start Themeix About Author -->
+<!-- Start Themeix About Author
 <section class="themeix-about-author section-spacing clearfix">
     <div class="container">
-       <div class="row">
-          <div class="col-md-8 m-auto">
-             <div class="themeix-section-title text-center">
-                <h2>What People Say</h2>
-                <div class="section-border"></div>
-                <p>Enim semper, gravida interdum null pellentesque adipiscing scelerisque vitae magnis platea. Ac
-                   sagittis ridiculus pellentesque. Est ac sollicitudin varius integer laoreet morbi porta </p>
-             </div>
-          </div>
-       </div>
-       <div class="owl-carousel about-author-info-carousel">
-          {% for testimonial in site.data.testimonials %}
-             <div class="about-author-info">
+        <div class="row">
+            <div class="col-md-8 m-auto">
+                <div class="themeix-section-title text-center">
+                    <h2>What People Say</h2>
+                    <div class="section-border"></div>
+                    <p>Enim semper, gravida interdum null pellentesque adipiscing scelerisque vitae magnis platea. Ac
+                        sagittis ridiculus pellentesque. Est ac sollicitudin varius integer laoreet morbi porta </p>
+                </div>
+            </div>
+        </div>
+        <div class="owl-carousel about-author-info-carousel">
+            {% for testimonial in site.data.testimonials %}
+            <div class="about-author-info">
                 {% if testimonial.image %}
-                   <div class="about-author-thumb">
-                      <img src="{{testimonial.image}}" alt="{{testimonial.name}}" />
-                   </div>
+                <div class="about-author-thumb">
+                    <img src="{{testimonial.image}}" alt="{{testimonial.name}}" />
+                </div>
                 {% endif %}
                 <div class="about-author-content">
-                   <a href="{{testimonial.website}}">{{testimonial.name}}</a>
-                   <span>{{testimonial.designation}}</span>
-                   <p>{{testimonial.review}}</p>
-                   <img src="{{testimonial.signature}}" alt="{{testimonial.name}}" />
+                    <a href="{{testimonial.website}}">{{testimonial.name}}</a>
+                    <span>{{testimonial.designation}}</span>
+                    <p>{{testimonial.review}}</p>
+                    <img src="{{testimonial.signature}}" alt="{{testimonial.name}}" />
                 </div>
-             </div>
-          {% endfor %}
-       </div>
+            </div>
+            {% endfor %}
+        </div>
     </div>
- </section>
- <!-- End Themeix Testimonial -->
+</section>
+ End Themeix Testimonial -->
+
+<section class="themeix-resgister bg-color4">
+    <div class="themeix-resgister-wrapper section-spacing">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <form action="https://ihjaimesabines.edu.mx/form_action.php" class="resgister-form wow fadeIn contact__form" data-wow-duration="2s" style="visibility: visible; animation-duration: 2s; animation-name: fadeIn;">
+                        <div class="resgister-form-text">
+                            <h2>Solicita información</h2>
+                            <p>Envíanos tus datos y nos contactaremos contigo<br>para darte toda la información que requieras</p>
+                            <div class="resgister-form-triangle"></div>
+                            <div class="alert alert-success contact__msg" style="display: none" role="alert">
+                                ¡Tu correo fue enviado exitosamente!
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="name" placeholder="Nombre" required="">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="email" placeholder="Correo electrónico" required="">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="tel" placeholder="Teléfono">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name="programa" placeholder="Programa académico de interes">
+                        </div>
+                        <button type="submit" class="btn-style1 btn-color1 btn btn-primary">Enviar información</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <!-- Start Themeix Testimonial-->
+<!--
 <section class="themeix-testimonial section-spacing bg-color clearfix">
     <div class="container">
-       <div class="row">
-          <div class="col-md-8 m-auto">
-             <div class="themeix-section-title text-center">
-                <h2>Our Instructor</h2>
-                <div class="section-border"></div>
-                <p>Enim semper, gravida interdum nullam, pellentesque adipiscing scelerisque vitae dui, magnis platea. Ac
-                   sagittis ridiculus Est ac sollicitudin varius integer laoreet morbi porta </p>
-             </div>
-          </div>
-       </div>
-       <div class="testimonial-instructor-carousel owl-carousel">
-          {% assign instructors = site.instructors %}
-          {% for instructor in instructors %}
-             {% include instructor-card.html %}
-          {% endfor %}
-       </div>
+        <div class="row">
+            <div class="col-md-8 m-auto">
+                <div class="themeix-section-title text-center">
+                    <h2>Nuestros docentes</h2>
+                    <div class="section-border"></div>
+                    <p>Contamos con una plantilla de docentes con una amplia trayectoria y formación académica</p>
+                </div>
+            </div>
+        </div>
+        <div class="testimonial-instructor-carousel owl-carousel">
+            {% assign instructors = site.instructors %}
+            {% for instructor in instructors %}
+            {% include instructor-card_ih.html %}
+            {% endfor %}
+        </div>
     </div>
- </section>
- <!-- End Themeix Testimonial-->
- 
+</section>
+-->
+<!-- End Themeix Testimonial-->
 
+<br><br>
 <!-- Start Themeix Feature-->
 <section class="latest-news-box section-spacing pt-0 bg-color">
     <div class="container">
-       <div class="row">
-          <div class="col-md-8 m-auto">
-             <div class="themeix-section-title text-center">
-                <h2>Latest News</h2>
-                <div class="section-border"></div>
-                <p>Enim semper, gravida interdum nullam, pellentesque adipiscing scelerisque vitae dui, magnis platea. Ac
-                   sagittis ridiculus Est ac sollicitudin varius integer laoreet morbi porta</p>
-             </div>
-          </div>
-       </div>
-       <div class="blog-post-wrapper-1">
-          <div class="row infinite-scroll">
-             {% for post in paginator.posts %}
-                <div class="col-lg-4 col-md-6 post-card-item">
-                   {% include post-card.html %}
+        <div class="row">
+            <div class="col-md-8 m-auto">
+                <div class="themeix-section-title text-center">
+                    <h2>Noticias</h2>
+                    <div class="section-border"></div>
+                    <p>Entérate de nuestras noticias más recientes</p>
                 </div>
-             {% endfor %}
+            </div>
+        </div>
+        <div class="blog-post-wrapper-1">
+            <div class="row infinite-scroll">
+                {% for post in paginator.posts %}
+                <div class="col-lg-4 col-md-6 post-card-item">
+                    {% include post-card.html %}
+                </div>
+                {% endfor %}
 
-          </div>
-          
-         {% include pagination.html %}
-       </div>
+            </div>
+
+            {% include pagination.html %}
+        </div>
     </div>
- </section>
- <!-- End Themeix Feature-->
+</section>
+<!-- End Themeix Feature-->
 
 {% include subscribe.html %}

@@ -1,0 +1,44 @@
+---
+layout: default
+---
+{% assign author = site.authors | where: 'author_id', page.author_id | first %}	
+
+      {% include page-title.html %}
+      <!-- Start Themeix  Single-->
+      <section class="themeix-Single section-spacing bg-color">
+            <div class="container">
+               <div class="row">
+                  <div class="col-lg-8 col-md-7">
+                     <div class="themeix-single">
+                        {% if page.post_image %}
+                        <div class="themeix-single-thumb"><img src="{{page.post_image}}" alt="{{page.title}}" /></div>
+                        {% endif %}
+							<div class="entry-content">
+								{{content}}
+							</div>
+                        <div class="themeix-single-page wow fadeIn"  data-wow-duration="2s">
+                           <ul class="themeix-single-tags float-left list-inline">
+                              <li class="list-inline-item">Tags - </li>
+                              {% for tag in page.tags %}
+                                    <li class="list-inline-item"><a href="/tag/{{ tag | slugize }}/">{{tag}}</a></li>
+                                {% endfor %}
+                           </ul>
+                           
+                           {% include social-share.html %}
+                        </div>
+
+
+
+                     </div>
+                  </div>
+                  <div class="col-lg-4 col-md-5">
+                     <div class="themeix-sidebar-right">
+                        {% include sidebar_ih.html %}
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <!-- End Themeix Single -->
+
+     

@@ -7,8 +7,9 @@
                <div class="themeix-footer-widget wow fadeIn" data-wow-duration="2s">
                   <div class="themeix-footer-logo"><a href="{{site.url}}"><img src="{{site.logo_url}}"
                            alt="footer logo img" /></a></div>
-                  <p>Diam ligula, vitae in. Eros cursus class dui. auctor bibendum magnis nulla massa. Molest
-                     condimentum mauris ligula tortor</p>
+                  <p>En el Instituto trabajamos día a día para ofertar programas educativos de calidad que coadyuven al desarrollo de competencias, permitiendo a los estudiantes y egresados responder a las exigencias educativas locales y globales.</p>
+                  <h4>Formando valores para toda la vida</h4>
+
                   <ul class="themeix-footer-social list-inline">
                         
                      {% if site.facebook_url %}
@@ -34,12 +35,23 @@
                            <a class="pinterest" href="{{site.pinterest_url}}"> <i class="fa fa-pinterest"></i></a>
                      </li>
                      {% endif %}
+
+                     {% if site.youtube_url %}
+                     <li class="list-inline-item">
+                        <a class="youtube" href="{{site.youtube_url}}"> <i class="fa fa-youtube"></i></a>
+                     </li>
+                     {% endif %}
+
+                     <li class="list-inline-item">
+                        <a class="login-ih" href="{{site.sistema_educacion}}" ><i class="fa fa-user"></i></a>
+                     </li>
+
                   </ul>
-                  <h5>Call Us</h5>
-                  <h6>00-659-896-456</h6>
+                  <h5>Llámanos</h5>
+                  <h6>{{site.tel_num}}</h6>
                </div>
             </div>
-            <div class="col-lg-2 col-md-6">
+            <!--<div class="col-lg-2 col-md-6">
                <div class="themeix-footer-widget wow fadeIn" data-wow-duration="2s">
                   <h4>Tag Cloud</h4>
                   <ul class="themeix-footer-single list-inline">
@@ -48,35 +60,51 @@
                      {% endfor %}
                   </ul>
                </div>
+            </div>--!>
+
+            <div class="col-lg-2 col-md-6">
+               <div class="themeix-footer-widget wow fadeIn" data-wow-duration="2s" style="visibility: visible; animation-duration: 2s; animation-name: fadeIn;">
+                  <h4>Accesos rápidos</h4>
+                  <ul class="themeix-footer-single list-inline">
+                     <li class="list-inline-item"><a href="#">Oferta educativa</a></li>
+                     <li class="list-inline-item"><a href="#">Aspirantes</a></li>
+                     <li class="list-inline-item"><a href="#">Estudiantes</a></li>
+                     <li class="list-inline-item"><a href="#">Egresados</a></li>
+                     <li class="list-inline-item"><a href="#">Certificaciones</a></li>
+                  </ul>
+               </div>
             </div>
+
             <div class="col-lg-2 col-md-6">
                <div class="themeix-footer-widget wow fadeIn" data-wow-duration="2s">
-                  <h4>Pages</h4>
-                  <ul class="themeix-footer-category list-inline">
-                        {% for link in site.data.footer-pages %}
-                           <li class="list-inline-item"><a href="{{link.url}}">{{link.title}}</a></li>
-                        {% endfor %}
+                  <h4>Conócenos</h4>
+                  <ul class="themeix-footer-single list-inline">
+                     <li class="list-inline-item"><a href="#">Antecedentes</a></li>
+                     <li class="list-inline-item"><a href="#">Directivos</a></li>
+                     <li class="list-inline-item"><a href="#">Cultura Organizacional</a></li>
+                     <li class="list-inline-item"><a href="#">Organigrama</a></li>
+                     <li class="list-inline-item"><a href="#">Contacto</a></li>
                   </ul>
                </div>
             </div>
             <div class="col-lg-3 col-md-6 wow fadeIn" data-wow-duration="2s">
                <div class="themeix-footer-widget m-0">
-                  <h4>Contact Form</h4>
-                  <form method="POST" action="https://formspree.io/themeix@gmail.com" class="themeix-footer-form">
+                  <h4>Formulario de contacto</h4>
+                  <form method="POST" action="https://formspree.io/f/xwkwjbag" class="themeix-footer-form">
                      <div class="alert alert-success contact__msg" style="display: none" role="alert">
-                        Your message was sent successfully.
+                        Tu mensaje fue enviado exitósamente
                      </div>
                      <div class="form-group">
-                        <input type="text" name="Name" class="form-control" placeholder="Full Name" name="name" required>
+                        <input type="text" name="Name" class="form-control" placeholder="Nombre completo" name="name" required>
                      </div>
                      <div class="form-group">
-                        <input type="email" name="Email" class="form-control" placeholder="Email Address" name="email" required>
+                        <input type="email" name="Email" class="form-control" placeholder="Correo electrónico" name="email" required>
                      </div>
                      <div class="form-group">
-                        <textarea class="form-control" name="Message" rows="5" placeholder="Message" name="message"
+                        <textarea class="form-control" name="Message" rows="5" placeholder="Mensaje" name="message"
                            required></textarea>
                      </div>
-                     <button type="submit" class="btn-style1 btn-color1 btn btn-primary">Send</button>
+                     <button type="submit" class="btn-style1 btn-color1 btn btn-primary">Enviar</button>
                   </form>
                </div>
             </div>
@@ -85,7 +113,9 @@
    </div>
    <div class="themeix-footer-intro text-center">
       <div class="container">
-            <p> &copy; {{ site.time | date: '%Y' }} {{ site.title }} | Developed by <a href="https://themeix.com">themeix</a></p>
+         <p><a href="/politicas-privacidad">Políticas de privacidad</a></p></p>
+         <p>Callejón La Salle 800, Col. Sta. María la Ribera. C.P. 29070. Tuxtla Gutiérrez, Chiapas.</p>
+            <p> &copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
       </div>
    </div>
 </footer>

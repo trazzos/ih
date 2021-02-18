@@ -4,25 +4,24 @@
 # Version : 1.0.0
 ###################################################################
 
-title: Eduzone - Premium Jekyll Theme
-email: themeix@gmail.com
+title: Instituto Hispano Jaime Sabines
+email: contacto@ihjaimesabines.edu.mx
 description: >- # this means to ignore newlines until "baseurl:"
-  Eduzone Responsive Static Jekyll Theme For Blogging.
-baseurl: "/ih" # the subpath of your site, e.g. /blog
-url: "https://trazzos.github.io/ih" # the base hostname & protocol for your site, e.g. https://example.com
-
 
 # Site Settings
-twitter_username: jekyllrb
+# twitter_username: jekyllrb
 logo_url: /assets/images/header-logo.png
 cover_image: /assets/images/blog-img-13.jpg
-mailclimp_url: 'https://themeix.us16.list-manage.com/subscribe/post?u=307862c135e4548eecf86f389&amp;id=4784863884'
-dribble_url: https://dribble.com/themeix
-facebook_url: https://facebook.com/themeix
-instagram_url: https://instagram.com/themeix
-twitter_url: https://twitter.com/themeix_com
-linkedin_url: https://linkedin.com/themeix
-pinterest_url: https://pinterest.com/themeix
+mailclimp_url: 'https://ihjaimesabines.us1.list-manage.com/subscribe/post?u=dc3604dd0b0a7af33eb721d72&amp;id=ba74b7c461'
+# dribble_url: https://dribble.com/themeix
+facebook_url: https://facebook.com/ihjaimesabines
+instagram_url: https://instagram.com/ihjaimesabines
+twitter_url: https://twitter.com/ihjaimesabines
+youtube_url: https://www.youtube.com/channel/UCV7od26fdwq_fECbWs6UaFw
+# linkedin_url: https://linkedin.com/themeix
+# pinterest_url: https://pinterest.com/themeix
+tel_num: 961 604 1539
+sistema_educacion: https://app.ihjaimesabines.edu.mx/
 
 
 # Build settings
@@ -97,12 +96,21 @@ collections:
   instructors:
     title: Instructors
     output: true
-    permalink: /instructors/:path/    
+    permalink: /instructors/:path/
+  directivos:
+      title: Directivos
+      output: true
+      permalink: /directivos/:path/
   lessons:
     title: Lessons
     output: true
-    permalink: /lessons/:path/    
-    
+    permalink: /lessons/:path/
+
+  educacion:
+      title: Educacion
+      output: true
+      permalink: /educacion/:path/
+
 feed:
   collections:
     posts:

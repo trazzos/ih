@@ -1,0 +1,30 @@
+---
+layout: default
+---
+{% assign directivo = site.directivos | where: 'directivo_id', page.directivo_id | first %}
+{% include page-title.html %}
+<!-- Start Themeix Feature-->
+<div class="themeix-feature bg-color section-spacing">
+   <div class="container">
+      <div class="row">
+         <div class="col-md-4">
+            <div class="directivo-image">
+                  <img src="{{directivo.image}}" alt="{{directivo.name}}">
+            </div>
+         </div>
+         <div class="col-md-8">
+            <div class="directivos-details ">
+               <h2>Hola, soy <h2a> {{directivo.name}}</h2a></h2>
+               <h6>{{directivo.designation}}</h6>
+               <p>{{directivo.bio}}
+               </p>
+
+
+
+            </div>
+         </div>
+      </div>
+
+   </div>
+</div>
+<!-- End Themeix Feature-->

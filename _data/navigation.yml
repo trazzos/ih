@@ -1,53 +1,63 @@
-- title: Home
+- title: Inicio
   url: /
-- title: About
-  url: /about
-- title: Courses
+- title: Conócenos
   url: /#
   sublinks:
-  - title: Course Grid
-    url: /course-grid
-  - title: Course Grid Left Sidebar
-    url: /course-grid-left-sidebar
-  - title: Course Grid Right Sidebar
-    url: /course-grid-right-sidebar
-  - title: Course List
-    url: /course-list
-  - title: Course List Left Sidebar
-    url: /course-list-left-sidebar
-  - title: Course List Right Sidebar
-    url: /course-list-right-sidebar
-  - title: Course Details
-    url: /courses/digital-strategy/
-- title: Lessons
+    - title: Antecedentes
+      url: /antecedentes
+    - title: Directivos
+      url: /all-directivos
+    - title: Cultura organizacional
+      url: /cultura-organizacional
+    - title: Organigrama
+      url: /organigrama
+    - title: Instalaciones
+      url: /instalaciones
+    - title: Convenios
+      url: /convenios
+    - title: Contáctanos
+      url: /contactanos
+- title: Oferta educativa
   url: /#
   sublinks:
-  - title: Lesson Right Sidebar
-    url: /lessons/basic-knowledge-about-android-development/
-  - title: Lesson Left Sidebar
-    url: /lessons/basic-knowledge-about-application/
-  - title: Lesson Full Width
-    url: /lessons/basic-knowledge-about-software-development/
-- title: Pages
+  - title: Educación básica
+    url: /educacion-basica
+  - title: Educación media superior
+    url: /educacion-media-superior
+  - title: Licenciaturas
+    url: /licenciaturas
+  - title: Posgrados
+    url: /posgrados
+- title: Aspirantes
   url: /#
   sublinks:
-  - title: Events
-    url: /events
-  - title: Gallery
-    url: /gallery
-  - title: instructors
-    url: /all-instructors
-  - title: 404
-    url: /404
-- title: Blog
-  url: /blog
+  - title: Becas
+    url: /becas
+  - title: Registro
+    url: /registro
+- title: Estudiantes
+  url: /#
   sublinks:
-  - title: Blog Right Sidebar
-    url: /blog-right
-  - title: Blog Left Sidebar
-    url: /blog-left
-  - title: Blog Details
-    url: /megento/2019/09/24/this-weeks-top-stories-about-hardwork.html
-- title: Contact
-  url: /contact      
+  - title: Acceso a la plataforma educativa
+    url: https://app.ihjaimesabines.edu.mx/login
+  - title: Acceso a biblioteca virtual
+    url: https://app.ihjaimesabines.edu.mx/login
+  - title: Revistas científicas
+    url: /revistas-cientificas
+  - title: Servicios de apoyos adicionales
+    url: /servicios-adicionales
+  - title: Normatividad
+    url: /normatividad
+- title: Egresados
+  url: /#
+  sublinks:
+  - title: Seguimiento de egresados
+    url: /seguimiento-egresados
+  - title: Bolsa de trabajo
+    url: https://canacotuxtla.org.mx/bolsa-trabajo.php
+- title: Certificaciones
+  url: /#
+  sublinks:
+    - title: Centro Evaluador de Competencias
+      url: /centro-evaluador
   

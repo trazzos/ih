@@ -1,0 +1,21 @@
+---
+layout: default
+title: Directivos
+permalink: /all-directivos
+---
+{% include page-title.html %}
+      <!-- Start Themeix Feature-->
+      <div class="themeix-feature scb-minus-30 section-spacing bg-color">
+         <div class="container">
+            <div class="row">
+                  {% assign directivos = site.directivos %}
+                  {% for directivo in directivos %}
+                  <div class="col-sm-6 col-lg-3">
+                     {% include directivo-card.html %}
+                  </div>
+                  {% endfor %}
+
+            </div>
+         </div>
+      </div>
+      <!-- End Themeix Feature-->

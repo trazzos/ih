@@ -1,0 +1,39 @@
+<div class="row">
+          <div class="col-md-6 col-lg-5">
+             <div class="themeix-section-title">
+                <h2>¿Porqué elegirnos?</h2>
+                <div class="section-border left-border"></div>
+                <p>En el Instituto se trabaja día a día para ofertar programas educativos de calidad que coadyuven al desarrollo de competencias, permitiendo a los estudiantes y egresados responder a las exigencias educativas locales y globales.
+                </p>
+             </div>
+             {% assign counter = 0 %}
+             {% for chose in site.data.why-chose-us %}
+             {% assign counter = counter | plus:1 %}
+             <div class="themeix-video-details wow fadeIn" data-wow-duration="{{counter}}s">
+                <div class="themeix-video-logo"><img src="{{chose.icon}}" alt="{{chose.title}}" /></div>
+                <div class="themeix-video-content">
+                   <h5>{{chose.title}}</h5>
+                   <p>{{chose.subtitle}}</p>
+                </div>
+             </div>
+             {% endfor %}
+          </div>
+          <div class="col-md-6 col-lg-7">
+             <div class="themeix-video-thumb section-overlay-two" style="background-image:url(/assets/images/ih/video-bg.jpg);">
+                <a class="themeix-video-play" href="https://www.youtube.com/watch?v=kzZP2OA0NH0" target="_blank">
+                   <i class="fa fa-play" aria-hidden="true"></i>
+                   <div class="iq-waves">
+                      <div class="waves wave-1">Excelencia</div>
+                      <div class="waves wave-2">Humanismo</div>
+                      <div class="waves wave-3">Identidad</div>
+                      <div class="waves wave-4">Servicio</div>
+                      <div class="waves wave-5">Responsabilidad</div>
+                      <div class="waves wave-6">Entusiasmo</div>
+                      <div class="waves wave-7">Espiritualidad</div>
+                      <div class="waves wave-8">Respeto</div>
+                      <div class="waves wave-9">Conciencia</div>
+                   </div>
+                </a>
+             </div>
+          </div>
+       </div>
