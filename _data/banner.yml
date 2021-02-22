@@ -1,6 +1,6 @@
 - title: "<span>Instituto Hispano</span> <span2>Jaime Sabines</span2>"
   subtitle: Formando valores para toda la vida
   course_button_label: Nuestra oferta académica
-  course_url: /oferta_academica
+  course_url: {{ site.baseurl }}/oferta_academica
   contact_label: Inscríbete
-  contact_url: /contactanos
+  contact_url: {{ site.baseurl }}/contactanos
