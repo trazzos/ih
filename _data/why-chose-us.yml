@@ -1,6 +1,8 @@
 - title: Modelo educativo
-  subtitle: Buscamos el desarrollo de competencias de los estudiantes y su formación integral.<br> Descarga nuestro modelo educativo <a href="/documents/modelo_educativo_ihjs.pdf" target="_blank"> Aquí </a>
+  subtitle: Buscamos el desarrollo de competencias de los estudiantes y su formación integral.<br> Descarga nuestro modelo educativo
   icon: /assets/images/video-logo.png
+  link: /documents/modelo_educativo_ihjs.pdf
+  link_text: Aquí
 
 - title: Sistema de Educación en Línea
   subtitle: Nuestro sistema de educación está disponible las 24 horas los 365 días del año

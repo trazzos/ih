@@ -13,7 +13,12 @@
                 <div class="themeix-video-logo"><img src="{{ site.baseurl }}{{chose.icon}}" alt="{{chose.title}}" /></div>
                 <div class="themeix-video-content">
                    <h5>{{chose.title}}</h5>
-                   <p>{{chose.subtitle}}</p>
+                   <p>{{chose.subtitle}}
+                    {% if chose.link %}
+                      <a href="{{ site.base_url}}{{chose.link}}" target="_blank"> {{ chose.link_text}} </a>
+                    {% endif %}
+                   </p>
+                  </p>
                 </div>
              </div>
              {% endfor %}
