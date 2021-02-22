@@ -66,11 +66,11 @@
    {% endif %}
    <!-- Site Title -->
    <title>{% if page.title %} {{page.title}} {% else %} {{site.title}} {% endif %}</title>
-   <link rel="shortcut icon" href="{{baseurl}}/assets/images/favicon.png" type="image/x-icon" />
+   <link rel="shortcut icon" href="{{ site.baseurl }}/assets/images/favicon.png" type="image/x-icon" />
 
    <!--  Add Favicon Icon-->
    <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/x-icon">
-   <link rel="icon" href="/assets/images/favicon.png" type="image/x-icon">
+   <link rel="icon" href="{{ site.baseurl }}/assets/images/favicon.png" type="image/x-icon">
   
    
    <!-- Main CSS -->
@@ -88,7 +88,7 @@
    {% include footer.html %}
 
    <!-- gulp:js -->
-   <script src="/assets/js/build.min.js"></script>
+   <script src="{{ site.baseurl }}/assets/js/build.min.js"></script>
    <!-- endgulp -->
    
 </body>
