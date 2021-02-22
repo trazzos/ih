@@ -5,7 +5,7 @@
          <div class="row">
             <div class="col-lg-5 col-md-6">
                <div class="themeix-footer-widget wow fadeIn" data-wow-duration="2s">
-                  <div class="themeix-footer-logo"><a href="{{site.url}}"><img src="{{ site.baseurl }}/{{site.logo_url}}"
+                  <div class="themeix-footer-logo"><a href="{{site.url}}"><img src="{{ site.baseurl }}{{site.logo_url}}"
                            alt="footer logo img" /></a></div>
                   <p>En el Instituto trabajamos día a día para ofertar programas educativos de calidad que coadyuven al desarrollo de competencias, permitiendo a los estudiantes y egresados responder a las exigencias educativas locales y globales.</p>
                   <h4>Formando valores para toda la vida</h4>
@@ -113,7 +113,7 @@
    </div>
    <div class="themeix-footer-intro text-center">
       <div class="container">
-         <p><a href="/politicas-privacidad">Políticas de privacidad</a></p></p>
+         <p><a href="{{ site.baseurl }}/politicas-privacidad">Políticas de privacidad</a></p></p>
          <p>Callejón La Salle 800, Col. Sta. María la Ribera. C.P. 29070. Tuxtla Gutiérrez, Chiapas.</p>
             <p> &copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
       </div>
