@@ -10,7 +10,7 @@
              {% for chose in site.data.why-chose-us %}
              {% assign counter = counter | plus:1 %}
              <div class="themeix-video-details wow fadeIn" data-wow-duration="{{counter}}s">
-                <div class="themeix-video-logo"><img src="{{ site.baseurl }}/{{chose.icon}}" alt="{{chose.title}}" /></div>
+                <div class="themeix-video-logo"><img src="{{ site.baseurl }}{{chose.icon}}" alt="{{chose.title}}" /></div>
                 <div class="themeix-video-content">
                    <h5>{{chose.title}}</h5>
                    <p>{{chose.subtitle}}</p>
