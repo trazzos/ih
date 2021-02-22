@@ -10,7 +10,7 @@
              {% for chose in site.data.why-chose-us %}
              {% assign counter = counter | plus:1 %}
              <div class="themeix-video-details wow fadeIn" data-wow-duration="{{counter}}s">
-                <div class="themeix-video-logo"><img src="{{chose.icon}}" alt="{{chose.title}}" /></div>
+                <div class="themeix-video-logo"><img src="{{ site.baseurl }}/{{chose.icon}}" alt="{{chose.title}}" /></div>
                 <div class="themeix-video-content">
                    <h5>{{chose.title}}</h5>
                    <p>{{chose.subtitle}}</p>
@@ -19,7 +19,7 @@
              {% endfor %}
           </div>
           <div class="col-md-6 col-lg-7">
-             <div class="themeix-video-thumb section-overlay-two" style="background-image:url(/assets/images/ih/video-bg.jpg);">
+             <div class="themeix-video-thumb section-overlay-two" style="background-image:url({{ site.baseurl }}/assets/images/ih/video-bg.jpg);">
                 <a class="themeix-video-play" href="https://www.youtube.com/watch?v=kzZP2OA0NH0" target="_blank">
                    <i class="fa fa-play" aria-hidden="true"></i>
                    <div class="iq-waves">
