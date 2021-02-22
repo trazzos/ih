@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Instalaciones
-permalink: /Instalaciones
+permalink: /instalaciones
 ---
 {% include page-title.html %}
       <!-- Start Themeix Feature-->
@@ -19,10 +19,10 @@ permalink: /Instalaciones
                      {% assign counter=counter | plus:1 %}
                      <div class="gallery-item {{gallery.tab_class}} col-md-4 col-sm-6">
                         <a href="#_" id="img{{counter}}" class="lightbox">
-                              <img src="{{gallery.image}}" alt="{{gallery.tab_name}}" />
+                              <img src="{{ site.baseurl }}{{gallery.image}}" alt="{{gallery.tab_name}}" />
                            </a>
                         <div class="gallery-item-thumb wow fadeIn"  data-wow-duration="2s">
-                              <img src="{{gallery.image}}" alt="{{gallery.tab_name}}" />
+                              <img src="{{ site.baseurl }}{{gallery.image}}" alt="{{gallery.tab_name}}" />
                            <div class="gallery-item-hover">
                               <a href="#img{{counter}}"><i class="fa fa-link"></i></a>
                               <p>{{gallery.tab_name}}</p>
