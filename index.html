@@ -156,28 +156,16 @@ pagination:
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
-                    <form action="https://ihjaimesabines.edu.mx/form_action.php" class="resgister-form wow fadeIn contact__form" data-wow-duration="2s" style="visibility: visible; animation-duration: 2s; animation-name: fadeIn;">
+                    <form action="{{ site.baseurl }}/registro.html" class="resgister-form wow fadeIn contact__form" data-wow-duration="2s" style="visibility: visible; animation-duration: 2s; animation-name: fadeIn;">
                         <div class="resgister-form-text">
                             <h2>Solicita información</h2>
                             <p>Envíanos tus datos y nos contactaremos contigo<br>para darte toda la información que requieras</p>
                             <div class="resgister-form-triangle"></div>
-                            <div class="alert alert-success contact__msg" style="display: none" role="alert">
-                                ¡Tu correo fue enviado exitosamente!
-                            </div>
+
+
                         </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" name="name" placeholder="Nombre" required="">
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" name="email" placeholder="Correo electrónico" required="">
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" name="tel" placeholder="Teléfono">
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" name="programa" placeholder="Programa académico de interes">
-                        </div>
-                        <button type="submit" class="btn-style1 btn-color1 btn btn-primary">Enviar información</button>
+                        <button type="submit" class="btn-style1 btn-color1 btn btn-primary">Registro</button>
+
                     </form>
                 </div>
             </div>

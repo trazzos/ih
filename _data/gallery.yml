@@ -16,7 +16,7 @@
 
 - tab_name: Infraestructura
   tab_class: infraestructura
-  image: /assets/images/galeria/infraestructura_1.jpg
+  image: /assets/images/galeria/infraestructura_1.JPG
 
 - tab_name: Áreas deportivas
   tab_class: deportivas
@@ -24,7 +24,7 @@
 
 - tab_name: Infraestructura
   tab_class: infraestructura
-  image: /assets/images/galeria/infraestructura_2.jpg
+  image: /assets/images/galeria/infraestructura_2.JPG
 
 - tab_name: Áreas deportivas
   tab_class: deportivas
