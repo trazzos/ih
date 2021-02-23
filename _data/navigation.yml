@@ -39,9 +39,9 @@
   url: /#
   sublinks:
   - title: Acceso a la plataforma educativa
-    url: https://app.ihjaimesabines.edu.mx/login
+    url_2: https://app.ihjaimesabines.edu.mx/login
   - title: Acceso a biblioteca virtual
-    url: https://app.ihjaimesabines.edu.mx/login
+    url_2: https://app.ihjaimesabines.edu.mx/login
   - title: Revistas científicas
     url: /revistas-cientificas
   - title: Servicios de apoyos adicionales
@@ -54,7 +54,7 @@
   - title: Seguimiento de egresados
     url: /seguimiento-egresados
   - title: Bolsa de trabajo
-    url: https://canacotuxtla.org.mx/bolsa-trabajo.php
+    url_2: https://canacotuxtla.org.mx/bolsa-trabajo.php
 - title: Certificaciones
   url: /#
   sublinks:
