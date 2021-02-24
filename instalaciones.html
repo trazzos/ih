@@ -18,14 +18,14 @@ permalink: /instalaciones
          {% for gallery in site.data.gallery %}
          {% assign counter=counter | plus:1 %}
          <div class="gallery-item {{gallery.tab_class}} col-md-4 col-sm-6">
-            <a href="#_" id="img{{counter}}" class="lightbox">
-               <img src="{{ site.baseurl }}{{gallery.image}}" alt="{{gallery.tab_name}}" />
+            <a href="{{ site.baseurl }}#_" id="{{ site.baseurl }}img{{counter}}" class="lightbox">
+               <img src="{{ site.baseurl }}{{gallery.image}}" alt="{{ site.baseurl }}{{gallery.tab_name}}" />
             </a>
             <div class="gallery-item-thumb wow fadeIn"  data-wow-duration="2s">
-               <img src="{{ site.baseurl }}{{gallery.image}}" alt="{{gallery.tab_name}}" />
+               <img src="{{ site.baseurl }}{{gallery.image}}" alt="{{ site.baseurl }}{{gallery.tab_name}}" />
                <div class="gallery-item-hover">
-                  <a href="#img{{counter}}"><i class="fa fa-link"></i></a>
-                  <p>{{gallery.tab_name}}</p>
+                  <a href="{{ site.baseurl }}#img{{counter}}"><i class="fa fa-link"></i></a>
+                  <p>{{ site.baseurl }}{{gallery.tab_name}}</p>
                </div>
             </div>
          </div>
