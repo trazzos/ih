@@ -1,22 +1,30 @@
 - tab_name: Infraestructura
   tab_class: infraestructura
-  image: /assets/images/galeria/infraestructura.jpg
+  image: /assets/images/galeria/infraestructura_1.JPG
 
 - tab_name: Áreas deportivas
   tab_class: deportivas
   image: /assets/images/galeria/deportivas.jpg
 
-- tab_name: Áreas comunes
-  tab_class: comunes
-  image: /assets/images/galeria/comunes_6.jpg
+- tab_name: Infraestructura
+  tab_class: infraestructura
+  image: /assets/images/galeria/infraestructura_2.JPG
 
 - tab_name: Áreas comunes
   tab_class: comunes
-  image: /assets/images/galeria/comunes.jpg
+  image: /assets/images/galeria/comunes_1.JPG
 
 - tab_name: Infraestructura
   tab_class: infraestructura
-  image: /assets/images/galeria/infraestructura_1.JPG
+  image: /assets/images/galeria/infraestructura_3.JPG
+
+- tab_name: Áreas comunes
+  tab_class: comunes
+  image: /assets/images/galeria/comunes.JPG
+
+- tab_name: Infraestructura
+  tab_class: infraestructura
+  image: /assets/images/galeria/infraestructura_4.JPG
 
 - tab_name: Áreas deportivas
   tab_class: deportivas
@@ -24,23 +32,31 @@
 
 - tab_name: Infraestructura
   tab_class: infraestructura
-  image: /assets/images/galeria/infraestructura_2.JPG
+  image: /assets/images/galeria/infraestructura_5.JPG
 
 - tab_name: Áreas deportivas
   tab_class: deportivas
-  image: /assets/images/galeria/deportivas_2.jpg
-
-- tab_name: Áreas comunes
-  tab_class: comunes
-  image: /assets/images/galeria/comunes_2.jpg
-
-- tab_name: Áreas comunes
-  tab_class: comunes
-  image: /assets/images/galeria/comunes_3.jpg
+  image: /assets/images/galeria/comunes_2.JPG
 
 - tab_name: Infraestructura
   tab_class: infraestructura
-  image: /assets/images/galeria/infraestructura_3.jpg
+  image: /assets/images/galeria/infraestructura_6.JPG
+
+- tab_name: Áreas comunes
+  tab_class: comunes
+  image: /assets/images/galeria/comunes_3.JPG
+
+- tab_name: Infraestructura
+  tab_class: infraestructura
+  image: /assets/images/galeria/infraestructura_7.JPG
+
+- tab_name: Áreas comunes
+  tab_class: comunes
+  image: /assets/images/galeria/comunes_4.JPG
+
+- tab_name: Infraestructura
+  tab_class: infraestructura
+  image: /assets/images/galeria/infraestructura_8.JPG
 
 - tab_name: Áreas deportivas
   tab_class: deportivas
@@ -48,51 +64,122 @@
 
 - tab_name: Infraestructura
   tab_class: infraestructura
-  image: /assets/images/galeria/infraestructura_4.jpg
-
-- tab_name: Áreas deportivas
-  tab_class: deportivas
-  image: /assets/images/galeria/deportivas_4.jpg
+  image: /assets/images/galeria/infraestructura_9.JPG
 
 - tab_name: Áreas comunes
   tab_class: comunes
-  image: /assets/images/galeria/comunes_4.jpg
+  image: /assets/images/galeria/comunes_5.JPG
+
+- tab_name: Infraestructura
+  tab_class: infraestructura
+  image: /assets/images/galeria/infraestructura_10.JPG
 
 - tab_name: Áreas comunes
   tab_class: comunes
-  image: /assets/images/galeria/comunes_5.jpg
+  image: /assets/images/galeria/comunes_6.JPG
 
 - tab_name: Infraestructura
   tab_class: infraestructura
-  image: /assets/images/galeria/infraestructura_5.jpg
+  image: /assets/images/galeria/infraestructura_11.JPG
 
 - tab_name: Áreas comunes
   tab_class: comunes
-  image: /assets/images/galeria/comunes_7.jpg
+  image: /assets/images/galeria/comunes_7.JPG
 
 - tab_name: Infraestructura
   tab_class: infraestructura
-  image: /assets/images/galeria/infraestructura_6.jpg
+  image: /assets/images/galeria/infraestructura_12.JPG
 
 - tab_name: Áreas comunes
   tab_class: comunes
-  image: /assets/images/galeria/comunes_8.jpg
+  image: /assets/images/galeria/comunes_8.JPG
 
 - tab_name: Infraestructura
   tab_class: infraestructura
-  image: /assets/images/galeria/infraestructura_7.jpg
-
-- tab_name: Infraestructura
-  tab_class: infraestructura
-  image: /assets/images/galeria/infraestructura_8.jpg
+  image: /assets/images/galeria/infraestructura_13.JPG
 
 - tab_name: Áreas comunes
   tab_class: comunes
-  image: /assets/images/galeria/comunes_9.jpg
+  image: /assets/images/galeria/comunes_9.JPG
 
 - tab_name: Infraestructura
   tab_class: infraestructura
-  image: /assets/images/galeria/infraestructura_10.jpg
+  image: /assets/images/galeria/infraestructura_14.JPG
 
+- tab_name: Áreas comunes
+  tab_class: comunes
+  image: /assets/images/galeria/comunes_10.JPG
+
+- tab_name: Infraestructura
+  tab_class: infraestructura
+  image: /assets/images/galeria/infraestructura_15.JPG
+
+- tab_name: Infraestructura
+  tab_class: infraestructura
+  image: /assets/images/galeria/infraestructura_16.JPG
+
+- tab_name: Infraestructura
+  tab_class: infraestructura
+  image: /assets/images/galeria/infraestructura_17.JPG
+
+- tab_name: Infraestructura
+  tab_class: infraestructura
+  image: /assets/images/galeria/infraestructura_18.JPG
+
+- tab_name: Infraestructura
+  tab_class: infraestructura
+  image: /assets/images/galeria/infraestructura_19.JPG
+
+- tab_name: Infraestructura
+  tab_class: infraestructura
+  image: /assets/images/galeria/infraestructura_20.JPG
+
+- tab_name: Infraestructura
+  tab_class: infraestructura
+  image: /assets/images/galeria/infraestructura_21.JPG
+
+- tab_name: Infraestructura
+  tab_class: infraestructura
+  image: /assets/images/galeria/infraestructura_22.JPG
+
+- tab_name: Infraestructura
+  tab_class: infraestructura
+  image: /assets/images/galeria/infraestructura_23.JPG
+
+- tab_name: Infraestructura
+  tab_class: infraestructura
+  image: /assets/images/galeria/infraestructura_24.JPG
+
+- tab_name: Infraestructura
+  tab_class: infraestructura
+  image: /assets/images/galeria/infraestructura_25.JPG
+
+- tab_name: Infraestructura
+  tab_class: infraestructura
+  image: /assets/images/galeria/infraestructura_26.JPG
+
+- tab_name: Infraestructura
+  tab_class: infraestructura
+  image: /assets/images/galeria/infraestructura_27.JPG
+
+- tab_name: Infraestructura
+  tab_class: infraestructura
+  image: /assets/images/galeria/infraestructura_28.JPG
+
+- tab_name: Infraestructura
+  tab_class: infraestructura
+  image: /assets/images/galeria/infraestructura_29.JPG
+
+- tab_name: Infraestructura
+  tab_class: infraestructura
+  image: /assets/images/galeria/infraestructura_30.JPG
+
+- tab_name: Infraestructura
+  tab_class: infraestructura
+  image: /assets/images/galeria/infraestructura_31.JPG
+
+- tab_name: Infraestructura
+  tab_class: infraestructura
+  image: /assets/images/galeria/infraestructura_32.JPG
 
 
