@@ -1,5 +1,5 @@
 /*--------------------------------------------------------------------------
-Template Name: Eduzone Education Template 
+Template Name: Eduzone Education Template
 Template uri: https://themeix.com/product/eduzone-education-html-site-template/
 Author Name: Themeix
 Author URI:  https://themeix.com
@@ -9,17 +9,17 @@ Description: Eduzone is a modern educational HTML 5 site template.  Eduzone is s
 ===========================
 INDEX SASS
 ===========================
-	1.0 Normalize Style 
-	2.0 Themeix Header 
-	3.0 Themeix Slider 
+	1.0 Normalize Style
+	2.0 Themeix Header
+	3.0 Themeix Slider
 	4.0 Themeix Banner Wells
 	5.0 Themeix Feature
 	6.0 Themeix Course
-	7.0 Themeix Counnter 
-	8.0  Themeix Resgister 
+	7.0 Themeix Counnter
+	8.0  Themeix Resgister
 	9.0 Themeix About Author
-	10.0 Themeix Testimonial 
-	11.0 Themeix Pannel 
+	10.0 Themeix Testimonial
+	11.0 Themeix Pannel
 	12.0 Themeix Subscribe
 	13.0 Themeix Single
 	14.0 Themeix Sidebar
@@ -467,8 +467,7 @@ iframe {
       padding: 40px 18px;
       font-size: 16px;
       font-weight: 600;
-      color: #45567c;
-      text-transform: capitalize; }
+      color: #45567c; }
       #navigation-menu li a:hover {
         background-color: transparent;
         color: #0d009a; }

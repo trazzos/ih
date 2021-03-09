@@ -7,7 +7,7 @@
       url: /antecedentes
     - title: Directivos
       url: /all-directivos
-    - title: Cultura organizacional
+    - title: Cultura Organizacional
       url: /cultura-organizacional
     - title: Organigrama
       url: /organigrama
@@ -17,12 +17,12 @@
       url: /convenios
     - title: Contáctanos
       url: /contactanos
-- title: Oferta educativa
+- title: Oferta Educativa
   url: /#
   sublinks:
-  - title: Educación básica
+  - title: Educación Básica
     url: /educacion-basica
-  - title: Educación media superior
+  - title: Educación Media Superior
     url: /educacion-media-superior
   - title: Licenciaturas
     url: /licenciaturas
@@ -38,26 +38,25 @@
 - title: Estudiantes
   url: /#
   sublinks:
-  - title: Acceso a la plataforma educativa
+  - title: Acceso a la Plataforma Educativa
     url_2: https://app.ihjaimesabines.edu.mx/login
-  - title: Acceso a biblioteca virtual
-    url_2: https://app.ihjaimesabines.edu.mx/login
-  - title: Revistas científicas
+  - title: Acceso a Biblioteca Virtual
+    url_2: https://elibro.net/es/lc/ihjaimesabines/login_usuario/?next=/es/lc/ihjaimesabines/inicio/
+  - title: Revistas Científicas
     url: /revistas-cientificas
-  - title: Servicios de apoyos adicionales
+  - title: Servicios de Apoyos Adicionales
     url: /servicios-adicionales
   - title: Normatividad
     url: /normatividad
 - title: Egresados
   url: /#
   sublinks:
-  - title: Seguimiento de egresados
+  - title: Seguimiento de Egresados
     url: /seguimiento-egresados
-  - title: Bolsa de trabajo
+  - title: Bolsa de Trabajo
     url_2: https://canacotuxtla.org.mx/bolsa-trabajo.php
 - title: Certificaciones
   url: /#
   sublinks:
     - title: Centro Evaluador de Competencias
       url: /centro-evaluador
-  

@@ -1,5 +1,5 @@
 /*--------------------------------------------------------------------------
-Template Name: Eduzone Education Template 
+Template Name: Eduzone Education Template
 Template uri: https://themeix.com/product/eduzone-education-html-site-template/
 Author Name: Themeix
 Author URI:  https://themeix.com
@@ -9,17 +9,17 @@ Description: Eduzone is a modern educational HTML 5 site template.  Eduzone is s
 ===========================
 INDEX SASS
 ===========================
-	1.0 Normalize Style 
-	2.0 Themeix Header 
-	3.0 Themeix Slider 
+	1.0 Normalize Style
+	2.0 Themeix Header
+	3.0 Themeix Slider
 	4.0 Themeix Banner Wells
 	5.0 Themeix Feature
 	6.0 Themeix Course
-	7.0 Themeix Counnter 
-	8.0  Themeix Resgister 
+	7.0 Themeix Counnter
+	8.0  Themeix Resgister
 	9.0 Themeix About Author
-	10.0 Themeix Testimonial 
-	11.0 Themeix Pannel 
+	10.0 Themeix Testimonial
+	11.0 Themeix Pannel
 	12.0 Themeix Subscribe
 	13.0 Themeix Single
 	14.0 Themeix Sidebar
@@ -29,7 +29,7 @@ INDEX SASS
 
 --------------------------*/
 
- @import "base/variable"; 
+ @import "base/variable";
 /* @import "base/prefix"; */
 /* @import "base/media_query"; */
 /* @import "base/base"; */
@@ -48,27 +48,27 @@ body {
 	-o-box-sizing: border-box;
 	-ms-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
-	
+
 	box-sizing: border-box;
 	&:before {
 		-o-box-sizing: border-box;
 		-ms-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
-		
+
 		box-sizing: border-box;
 	}
 	&:after {
 		-o-box-sizing: border-box;
 		-ms-box-sizing: border-box;
 		-webkit-box-sizing: border-box;
-		
+
 		box-sizing: border-box;
 	}
 }
 a {
 	-webkit-transition: all 0.5s ease-in-out;
 	-o-transition: all 0.5s ease-in-out;
-	
+
 	transition: all 0.5s ease-in-out;
 	color: $primary-color;
 	&:hover {
@@ -86,30 +86,30 @@ a {
 	&.btn {
 		&.active {
 			-webkit-box-shadow: none !important;
-			
+
 			box-shadow: none !important;
 			outline: none;
 		}
 		&:active {
 			-webkit-box-shadow: none !important;
-			
+
 			box-shadow: none !important;
 			outline: none;
 		}
 		&:focus {
 			-webkit-box-shadow: none !important;
-			
+
 			box-shadow: none !important;
 			outline: none;
 		}
 		&:hover {
 			-webkit-box-shadow: none !important;
-			
+
 			box-shadow: none !important;
 			outline: none;
 		}
 	}
-	&.popular-course-enroll {	
+	&.popular-course-enroll {
 		color: $primary-color;
 		display: inline-block;
 		text-transform: capitalize;
@@ -122,26 +122,26 @@ a {
 button {
 	-webkit-transition: all 0.5s ease-in-out;
 	-o-transition: all 0.5s ease-in-out;
-	
+
 	transition: all 0.5s ease-in-out;
 	&:hover {
 		outline: 0;
 		-webkit-box-shadow: none !important;
-		
+
 		box-shadow: none !important;
 		cursor: pointer;
 	}
 	&:focus {
 		outline: 0;
 		-webkit-box-shadow: none !important;
-		
+
 		box-shadow: none !important;
 		cursor: pointer;
 	}
 	&:active {
 		outline: 0;
 		-webkit-box-shadow: none !important;
-		
+
 		box-shadow: none !important;
 		cursor: pointer;
 	}
@@ -149,22 +149,22 @@ button {
 input {
 	-webkit-transition: all 0.5s ease-in-out;
 	-o-transition: all 0.5s ease-in-out;
-	
+
 	transition: all 0.5s ease-in-out;
 	&:focus {
 		-webkit-box-shadow: none;
-		
+
 		box-shadow: none;
 		outline: 0;
-		
+
 		box-shadow: none !important;
 	}
 	&:active {
 		-webkit-box-shadow: none;
-		
+
 		box-shadow: none;
 		outline: 0;
-		
+
 		box-shadow: none !important;
 	}
 }
@@ -199,9 +199,9 @@ h6 {
 	font-weight: 700;
 	margin-bottom: 20px;
 }
- 
+
 ul {
- 
+
 	&.popular-course-review {
 		margin: 0;
 		padding: 0;
@@ -219,33 +219,33 @@ ul {
 		width: 100%;
 	}
 }
- 
+
 img {
 	max-width: 100%;
 }
 select {
 	&:hover {
 		-webkit-box-shadow: none;
-		
+
 		box-shadow: none;
 		outline: 0;
-		
+
 		box-shadow: none !important;
 	}
 	&:focus {
 		-webkit-box-shadow: none;
-		
+
 		box-shadow: none;
 		outline: 0;
-		
+
 		box-shadow: none !important;
 	}
 	&:active {
 		-webkit-box-shadow: none;
-		
+
 		box-shadow: none;
 		outline: 0;
-		
+
 		box-shadow: none !important;
 	}
 	&.form-control:not([size]):not([multiple]) {
@@ -255,18 +255,18 @@ select {
 textarea {
 	&:focus {
 		-webkit-box-shadow: none;
-		
+
 		box-shadow: none;
 		outline: 0;
-		
+
 		box-shadow: none !important;
 	}
 	&:active {
 		-webkit-box-shadow: none;
-		
+
 		box-shadow: none;
 		outline: 0;
-		
+
 		box-shadow: none !important;
 	}
 }
@@ -277,13 +277,13 @@ figure {
 	&.focus {
 		outline: 0;
 		-webkit-box-shadow: none;
-		
+
 		box-shadow: none;
 	}
 	&:focus {
 		outline: 0;
 		-webkit-box-shadow: none;
-		
+
 		box-shadow: none;
 	}
 }
@@ -329,7 +329,7 @@ iframe {
 #page-loader {
 	-webkit-transition: all 1s ease-in-out;
 	-o-transition: all 1s ease-in-out;
-	
+
 	transition: all 1s ease-in-out;
 }
 .themeix-blockquote {
@@ -406,7 +406,7 @@ iframe {
 .themeix-btn {
 	background-color: $primary-color;
 	border: 2px solid $primary-color;
-	
+
 	border-radius: 4px;
 	padding: 10px 30px;
 	font-size: 16px;
@@ -588,7 +588,6 @@ iframe {
 			font-size: 16px;
 			font-weight: 600;
 			color: $text-color;
-			text-transform: capitalize;
 			&:hover {
 				background-color: transparent;
 				color: $primary-color;
@@ -648,13 +647,13 @@ iframe {
 }
 .top-login-modal {
 	.modal-content {
-		
+
 		border-radius: 4px;
 	}
 	.modal-header {
-	 
+
 		span {
-			 
+
 		}
 	}
 	.login-btn {
@@ -662,11 +661,11 @@ iframe {
 		background: $primary-color;
 		color: #fff;
 		padding: 10px 20px;
-		
+
 		border-radius: 4px;
 	}
 	input.form-control {
-		
+
 		border-radius: 4px;
 		padding: 10px;
 	}
@@ -733,25 +732,25 @@ iframe {
 	}
 	.breadcrumb-item + .breadcrumb-item::before {
 		color: $text-color;
-	 
+
 	}
 }
 section {
 	&.themeix-contact {
 		input[type="text"] {
 			border: 1px solid #ddd;
-			
+
 			border-radius: 4px;
 		}
 		input[type="email"] {
 			border: 1px solid #ddd;
-			
+
 			border-radius: 4px;
 		}
 		textarea#message {
 			max-height: 124px;
 			border: 1px solid #ddd;
-			
+
 			border-radius: 4px;
 		}
 	}
@@ -860,7 +859,7 @@ section {
 		width: 70px;
 		height: 70px;
 		text-align: center;
-		
+
 		border-radius: 50%;
 		line-height: 51px;
 		padding-left: 15px;
@@ -890,7 +889,7 @@ section {
 	top: 50%;
 	-webkit-transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
-	
+
 	z-index: 2;
 	.waves {
 		position: absolute;
@@ -901,9 +900,9 @@ section {
 		background: rgba(255, 104, 0, 0.10);
 		opacity: 0;
 		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-		
+
 		border-radius: 320px;
-		
+
 		background-clip: padding-box;
 		-webkit-animation: waves 5s ease-in-out infinite;
 		animation: waves 5s ease-in-out infinite;
@@ -949,7 +948,7 @@ section {
 @-webkit-keyframes waves {
 	0% {
 		-webkit-transform: scale(0.2, 0.2);
-		
+
 		opacity: 0;
 		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	}
@@ -959,7 +958,7 @@ section {
 	}
 	100% {
 		-webkit-transform: scale(0.9, 0.9);
-		
+
 		transform: scale(0.9, 0.9);
 		opacity: 0;
 		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
@@ -968,7 +967,7 @@ section {
 @keyframes waves {
 	0% {
 		-webkit-transform: scale(0.2, 0.2);
-		
+
 		opacity: 0;
 		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
 	}
@@ -978,7 +977,7 @@ section {
 	}
 	100% {
 		-webkit-transform: scale(0.9, 0.9);
-		
+
 		transform: scale(0.9, 0.9);
 		opacity: 0;
 		-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
@@ -1049,7 +1048,7 @@ section {
 		}
 	}
 	.upcoming-event-btn {
-		border: 2px solid $primary-color;		
+		border: 2px solid $primary-color;
 		border-radius: 4px;
 		padding: 3px 15px;
 		text-transform: capitalize;
@@ -1062,7 +1061,7 @@ section {
 .upcoming-event-more {
 	background-color: transparent;
 	border: 1px solid $grey-color;
-	
+
 	border-radius: 4px;
 	padding: 2px 16px;
 	font-size: 10px;
@@ -1172,7 +1171,7 @@ div {
 		margin-bottom: 30px;
 		.card-body {
 			background: #fff;
-			
+
 			box-shadow: 0 0 35px -10px #ddd;
 		}
 	}
@@ -1203,7 +1202,7 @@ div {
     color: $text-color;
 }
 	}
-	
+
 .themeix-newsletter-wrapper {
 	background-color: $grey-color;
 	padding: 90px 0;
@@ -1219,10 +1218,10 @@ div {
 		.form-control {
 			border: 1px solid #d9d9d9;
 			background: transparent;
-			
+
 			border-radius: 4px;
 			-webkit-box-shadow: none;
-			
+
 			box-shadow: none;
 		}
 		.btn {
@@ -1230,7 +1229,7 @@ div {
 			text-transform: capitalize;
 			font-weight: 400;
 			font-size: 15px;
-			
+
 			border-radius: 4px;
 			background: $primary-color;
 			color: $white-color;
@@ -1354,7 +1353,7 @@ div {
 		width: 40px;
 		height: 40px;
 		border: 1px solid #eaeaea;
-		
+
 		border-radius: 100%;
 		display: block;
 		font-size: 16px;
@@ -1405,7 +1404,7 @@ div {
 	max-height: 300px;
 	overflow: hidden;
 		-webkit-transition: all 1s ease-in-out;
-	-o-transition: all 1s ease-in-out;	
+	-o-transition: all 1s ease-in-out;
 	transition: all 1s ease-in-out;
 	img {
 		width: 100%;
@@ -1428,14 +1427,14 @@ div {
     width: 100%;
     height: 100%;
 	-webkit-transition: all 1s ease-in-out;
-	-o-transition: all 1s ease-in-out;	
+	-o-transition: all 1s ease-in-out;
 	transition: all 1s ease-in-out;
     opacity: 1;
 
 	}
 	}
-	
-	
+
+
 }
 .gallery-item-hover {
 	position: absolute;
@@ -1514,7 +1513,7 @@ div {
 			i {
 				font-size: 12px;
 				margin-right: 10px;
-				
+
 				border-radius: 100%;
 				width: 10px;
 				height: 10px;
@@ -1525,7 +1524,7 @@ div {
 			li span {
 				width: 30px;
 				height: 30px;
-				
+
 				border-radius: 100%;
 				display: block;
 				font-size: 16px;
@@ -1588,7 +1587,7 @@ div {
 		text-transform: capitalize;
 		font-weight: 400;
 		font-size: 15px;
-		
+
 		border-radius: 4px;
 		background: $primary-color;
 		color: $white-color;
@@ -1615,7 +1614,7 @@ div {
 		box-shadow:0 2px 30px rgba(210,212,222,.6);
 	}
 	.popular-course-content {
-		
+
 
 		h5 {
 			border-bottom: 1px solid $primary-color;
@@ -1668,22 +1667,22 @@ div {
 		color: $white-color;
 	}
 }
-.popular-course-thumb { 
+.popular-course-thumb {
 	min-height: 215px;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
 	position: relative;
-	
+
 	transition: all 0.5s ease;
 	&:hover {
-		
+
 		transition: all 0.5s ease;
 	}
 	.popular-course-teacher {
 		position: absolute;
 		bottom: 10px;
-		right: 10px;		
+		right: 10px;
 		a {
 			display: inline;
 			font-size: 12px;
@@ -1810,7 +1809,7 @@ div {
 				background-color: $primary-color;
 			}
 		}
-		
+
 		}
 		p {
 			margin-bottom: 20px;
@@ -1899,7 +1898,7 @@ div {
 	background: none;
 	margin: 0 auto;
 	-webkit-box-shadow: none;
-	
+
 	box-shadow: none;
 	position: relative;
 	margin-bottom: 10px;
@@ -1907,7 +1906,7 @@ div {
 		content: "";
 		width: 100%;
 		height: 100%;
-		
+
 		border-radius: 50%;
 		border: 6px solid #c8c6c6;
 		position: absolute;
@@ -1928,14 +1927,14 @@ div {
 		animation: themeix-loading 1.5s linear forwards 1.8s;
 		.progress-bar {
 			left: 100%;
-			
+
 			border-top-right-radius: 80px;
-			
+
 			border-bottom-right-radius: 80px;
 			border-left: 0;
 			-webkit-transform-origin: center left;
 			-ms-transform-origin: center left;
-			
+
 			transform-origin: center left;
 		}
 	}
@@ -1953,14 +1952,14 @@ div {
 		right: 0;
 		.progress-bar {
 			left: -100%;
-			
+
 			border-top-left-radius: 80px;
-			
+
 			border-bottom-left-radius: 80px;
 			border-right: 0;
 			-webkit-transform-origin: center right;
 			-ms-transform-origin: center right;
-			
+
 			transform-origin: center right;
 			-webkit-animation: themeix-loading 1.8s linear forwards;
 			animation: themeix-loading 1.8s linear forwards;
@@ -1969,7 +1968,7 @@ div {
 	.progress-value {
 		width: 90%;
 		height: 90%;
-		
+
 		border-radius: 50%;
 		background: transparent;
 		font-size: 30px;
@@ -1985,24 +1984,24 @@ div {
 @-webkit-keyframes themeix-loading {
 	0% {
 		-webkit-transform: rotate(0deg);
-		
+
 		transform: rotate(0deg);
 	}
 	100% {
 		-webkit-transform: rotate(180deg);
-		
+
 		transform: rotate(180deg);
 	}
 }
 @keyframes themeix-loading {
 	0% {
 		-webkit-transform: rotate(0deg);
-		
+
 		transform: rotate(0deg);
 	}
 	100% {
 		-webkit-transform: rotate(180deg);
-		
+
 		transform: rotate(180deg);
 	}
 }
@@ -2036,7 +2035,7 @@ div {
 .resgister-form {
 	background-color: $white-color;
 	-webkit-box-shadow: 0 15px 78px -18px #bdbbbb;
-	
+
 	box-shadow: 0 15px 78px -18px #bdbbbb;
 	text-align: center;
 	.resgister-form-text {
@@ -2069,7 +2068,7 @@ div {
 		padding: 12px 30px;
 		background-color: $text-color;
 		border: 1px solid;
-		
+
 		border-radius: 4px;
 		border-color: transparent;
 		color: $white-color;
@@ -2096,7 +2095,7 @@ div {
 	position: absolute;
 	-webkit-transform: skew(0deg,-2deg);
 	-ms-transform: skew(0deg,-2deg);
-	
+
 	transform: skew(0deg,-2deg);
 }
 .themeix-resgister-wrapper {
@@ -2197,7 +2196,7 @@ div {
 	visibility: hidden;
 	-webkit-transition: all 0.8s ease-in-out;
 	-o-transition: all 0.8s ease-in-out;
-	
+
 	transition: all 0.8s ease-in-out;
 }
 .testimonial-hover-wrap {
@@ -2227,7 +2226,7 @@ div {
 		width: 30px;
 		height: 30px;
 		border: 1px solid $white-color;
-		
+
 		border-radius: 100%;
 		display: block;
 		font-size: 14px;
@@ -2259,7 +2258,7 @@ div {
 		color: transparent;
 		-webkit-transition: all 0.5s ease-in-out;
 		-o-transition: all 0.5s ease-in-out;
-		
+
 		transition: all 0.5s ease-in-out;
 		&:hover {
 			background-color: $primary-color;
@@ -2286,7 +2285,7 @@ div {
 		color: transparent;
 		-webkit-transition: all 0.5s ease-in-out;
 		-o-transition: all 0.5s ease-in-out;
-		
+
 		transition: all 0.5s ease-in-out;
 		margin-right: 10px;
 		&:hover {
@@ -2350,7 +2349,7 @@ div {
 	.pannel-plus {
 		width: 150px;
 		height: 150px;
-		
+
 		border-radius: 100%;
 		position: absolute;
 		left: 0;
@@ -2408,7 +2407,7 @@ div {
 	background-color: $primary-color;
 	-webkit-transform: skew(-20deg,0deg);
 	-ms-transform: skew(-20deg,0deg);
-	
+
 	transform: skew(-20deg,0deg);
 	z-index: 2;
 	background-image: url(../images/subscribe-bg-logo.png);
@@ -2539,7 +2538,7 @@ div {
 	margin-bottom: 20px;
 	.progress {
 		background-color: transparent;
-		
+
 		border-radius: 4px;
 		height: 20px;
 	}
@@ -2556,7 +2555,7 @@ div {
 	}
 	.progress-bar {
 		background-color: #ff954c;
-		
+
 		border-radius: 4px;
 		font-size: 12px;
 	}
@@ -2657,7 +2656,7 @@ div {
 	font-size: 14px;
 	background-color: #eeecec;
 	padding: 0 10px;
-	
+
 	border-radius: 4px;
 	border: 1px solid #e4e4e4;
 }
@@ -2770,7 +2769,7 @@ div {
 			font-weight: 600;
 			-webkit-transition: 0.5s all;
 			-o-transition: 0.5s all;
-			
+
 			transition: 0.5s all;
 		}
 		.recent-meta {
@@ -2793,7 +2792,7 @@ div {
 		padding: 8px 20px;
 		background-color: transparent;
 		border: 1px solid;
-		
+
 		border-radius: 4px;
 		border-color: $text-color;
 		color: $text-color;
@@ -2844,7 +2843,7 @@ div {
 		margin-bottom: 20px;
 		input {
 			padding: 14px;
-			
+
 			border-radius: 4px;
 			border: 1px solid $grey-color;
 			width: 100%;
@@ -2856,7 +2855,7 @@ div {
 		}
 		select {
 			padding: 14px;
-			
+
 			border-radius: 4px;
 			border: 1px solid $grey-color;
 			width: 100%;
@@ -2868,7 +2867,7 @@ div {
 		}
 		textarea {
 			padding: 14px;
-			
+
 			border-radius: 4px;
 			border: 1px solid $grey-color;
 			width: 100%;
@@ -2882,7 +2881,7 @@ div {
 	button[type="submit"] {
 		background-color: $primary-color;
 		border: 0;
-		
+
 		border-radius: 4px;
 		padding: 10px 30px;
 		font-size: 16px;
@@ -2982,7 +2981,7 @@ div {
 		padding: 15px 30px;
 		background-color: $primary-color;
 		border: 1px solid;
-		
+
 		border-radius: 4px;
 		border-color: transparent;
 		color: $white-color;
@@ -3020,7 +3019,7 @@ div {
 	display: inline-block;
 	color: #505050;
 	cursor: pointer;
-	
+
 	transition: color .3s, background .3s;
 	&:hover {
 		color: $primary-color;
@@ -3029,7 +3028,7 @@ div {
 		display: inline-block;
 		float: right;
 		font-style: inherit;
-		
+
 		transition: transform .3s;
 		margin-left: 10px;
 		margin-top: 5px;
@@ -3041,7 +3040,7 @@ div {
 			color: $primary-color;
 			> i {
 				color: $primary-color;
-				
+
 				transform: rotate(90deg);
 			}
 		}
@@ -3063,7 +3062,7 @@ div {
 	display: block;
 	overflow: hidden;
 	text-decoration: none;
-	
+
 	transition: height .3s, padding .3s;
 }
 .billing-address {
@@ -3077,12 +3076,12 @@ div {
 		margin-bottom: 30px;
 	}
 	h4 {
-	
+
 		font-size: 20px;
 		margin-bottom: 30px;
 	}
 	h5 {
-	
+
 		font-size: 22px;
 		margin-bottom: 10px;
 	}
@@ -3098,7 +3097,7 @@ div {
 		background-color: transparent;
 		width: 40px;
 		height: 40px;
-	
+
 		border-radius: 100%;
 		display: block;
 		font-size: 18px;
@@ -3164,18 +3163,18 @@ div {
 	.form-group {
 		margin-bottom: 15px;
 		.form-control {
-	
+
 			border-radius: 4px;
 			display: inline;
 			width: 100%;
 			margin: auto;
 			padding: 12px 20px;
 			border: 0;
-			
+
 			border-radius: 4px;
 			-webkit-transition: all 0.3s ease-in-out;
 			-o-transition: all 0.3s ease-in-out;
-			
+
 			transition: all 0.3s ease-in-out;
 		}
 	}
@@ -3184,7 +3183,7 @@ div {
 		padding: 12px 30px;
 		background-color: $primary-color;
 		border: 1px solid;
-		
+
 		border-radius: 4px;
 		border-color: transparent;
 		color: $white-color;
@@ -3207,7 +3206,7 @@ div {
 	p {
 		margin-bottom: 0;
 		font-size: 15px;
- 
+
 	}
 	a {
 		color: $primary-color;
@@ -3244,7 +3243,7 @@ div {
 .themeix-slider-btn a.themeix-btn {
 	margin-right: 30px;
 }
- 
+
 .upcoming-event-container .upcoming-event-wrapper:last-child {
 	margin-bottom: 0;
 	padding-bottom: 0;
@@ -3324,10 +3323,10 @@ div {
 	.form-control {
 		border: 1px solid #d9d9d9;
 		background: transparent;
-		
+
 		border-radius: 4px;
 		-webkit-box-shadow: none;
-		
+
 		box-shadow: none;
 	}
 	.btn {
@@ -3335,7 +3334,7 @@ div {
 		text-transform: capitalize;
 		font-weight: 400;
 		font-size: 20px;
-		
+
 		border-radius: 4px;
 		background: $primary-color;
 		color: $white-color;
@@ -3385,11 +3384,11 @@ div {
 			}
 		}
 		&:first-child a {
-			
+
 			border-radius: 4px;
 		}
 		&:last-child a {
-			
+
 			border-radius: 4px;
 		}
 	}
@@ -3420,9 +3419,9 @@ div {
 	.form-control {
 		border: 1px solid #fff;
 		background: #fff;
-		
+
 		border-radius: 4px;
-		
+
 		box-shadow: none;
 		height: 42px;
 	}
@@ -3431,7 +3430,7 @@ div {
 		text-transform: capitalize;
 		font-weight: 400;
 		font-size: 15px;
-		
+
 		border-radius: 4px;
 		background: #232b2d;
 		color: $white-color;
@@ -3447,10 +3446,10 @@ div {
 	.form-control {
 		border: 1px solid #d9d9d9;
 		background: transparent;
-		
+
 		border-radius: 4px;
 		-webkit-box-shadow: none;
-		
+
 		box-shadow: none;
 	}
 	.btn {
@@ -3458,7 +3457,7 @@ div {
 		text-transform: capitalize;
 		font-weight: 400;
 		font-size: 15px;
-		
+
 		border-radius: 4px;
 		background: $primary-color;
 		color: $white-color;
@@ -3623,8 +3622,8 @@ div {
     width: 35px;
     border-radius: 50%;
 }
- 
- 
+
+
 .course-logo.instructor img {
     width: 65px;
     border-radius: 50%;
@@ -3662,9 +3661,9 @@ div {
     cursor: crosshair;
     display: block;
 }
- 
- 
- 
+
+
+
 div#results-container {
     float: left;
     width: 100%;
@@ -3707,7 +3706,7 @@ div#results-container .search-results .search-content p {
 form.sidebar-search.sidebar-widget {
     margin-bottom: 5px;
 }
- 
+
 .themeix-single-tags a {
     padding: 8px 15px;
     color: $white-color!important;
@@ -3715,7 +3714,7 @@ form.sidebar-search.sidebar-widget {
 }
 .themeix-single-page .themeix-single-social li a {
     padding: 8px 12px;
- 
+
 }
 .themeix-top-bar-right a {
     padding: 5px 8px;
@@ -3813,7 +3812,7 @@ a.youtube {
     border: none;
     border-radius: 4px;
     padding: 8px 15px;
-} 
+}
 
 
 
@@ -3941,7 +3940,7 @@ a.youtube {
 .themeix-counter-wrapper{
 	margin-bottom:30px;
 }
- 
+
 .upcoming-event-details .upcoming-event-logo {
     width: 60px;
 }
@@ -3951,7 +3950,7 @@ a.youtube {
 }
 .upcoming-event-logo {
 	display:none
-	
+
 }
 .upcoming-event-details .upcoming-event-content {
     width: calc(100%);
@@ -3991,7 +3990,7 @@ a.youtube {
     font-size: 22px;
     margin-bottom: 10px;
 }
- 
+
 .themeix-pannel-main .pannel-column {
     padding: 30px 10px;
 }
@@ -4029,11 +4028,11 @@ a.youtube {
     font-size: 18px;
     margin-bottom: 10px;
 }
-.themeix-blog-post .themeix-blog-meta li, 
+.themeix-blog-post .themeix-blog-meta li,
 .themeix-blog-post .themeix-blog-meta a {
     font-size: 14px;
 }
- 
+
 .popular-course-post .popular-course-student li {
     font-size: 11px;
     margin-right: 12px !important;
@@ -4130,7 +4129,7 @@ a.youtube {
 .themeix-course-search h2 {
     font-size: 26px;
 }
- 
+
 .themeix-course-grid ul li a {
     font-size: 26px;
 }
@@ -4141,7 +4140,7 @@ a.youtube {
     font-size: 30px;
 }
 .popular-course-post2 .popular-course-student li {
-	
+
     margin-right: 10px !important;
 }
 .upcoming-event-calendar h4 {
@@ -4182,7 +4181,7 @@ a.youtube {
 /*	Mobile Layout: 768px.  */
 
 @media only screen and (max-width: 768px) {
- 
+
 .section-spacing {
     padding: 80px 0px;
 }
@@ -4237,7 +4236,7 @@ a.youtube {
 .themeix-wells-container .breadcrumb a, li.breadcrumb-item.active {
     font-size: 14px;
 }
-.themeix-header-top .top-content, 
+.themeix-header-top .top-content,
 .themeix-header-top .top-sign-btn {
     font-size: 14px;
 }
@@ -4321,7 +4320,7 @@ a.youtube {
 .themeix-counter-wrapper{
 	margin-bottom:30px;
 }
- 
+
 .upcoming-event-details .upcoming-event-logo {
     width: 60px;
 }
@@ -4437,9 +4436,9 @@ a.youtube {
 .services-container {
     margin-bottom: 40px;
 }
- 
+
 .themeix-subscribe-wrapper {
- 
+
     padding: 0 15px;
 }
 .subscribe-triangle {
@@ -4562,7 +4561,7 @@ a.youtube {
 .themeix-course-search h2 {
     font-size: 20px;
 }
- 
+
 .themeix-course-grid ul li a {
     font-size: 26px;
 }
@@ -4599,7 +4598,7 @@ a.youtube {
     margin-bottom: 30px;
 }
 .contact-form {
-	
+
 }
 .gallery-item-hover{
 	display:none;
@@ -4642,7 +4641,7 @@ a.youtube {
 }
 .upcoming-event-logo, .about-author-info .about-author-thumb, .themeix-resgister-wrapper, .about-author-info .about-author-content img {
 	display:none
-	
+
 }
 .themeix-video-thumb {
     min-height: 215px;
@@ -4663,10 +4662,10 @@ a.youtube {
     margin-bottom: 0!important;
     padding-bottom: 0!important;
 }
- 
+
 }
 @media only screen and (max-width: 767px) {
-  
+
   .instructors-details-img {
     background-image: none;
   }
@@ -4689,7 +4688,7 @@ a.youtube {
 :-moz-placeholder {
   font-size: 16px;
 }
- 
+
 .themeix-slider-btn a.btn {
     margin-bottom: 15px;
     width: 115px;
@@ -4706,7 +4705,7 @@ a.youtube {
 .iq-waves {
     position: absolute;
     width: 100vw;
- left: auto 
+ left: auto
 }
 .themeix-subscribe .subscribe-column {
     width: 100%;
