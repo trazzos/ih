@@ -105,11 +105,14 @@
     /* ISOTOP FILTERS */
 
     $(document).ready(function() {
-
-        var $grid = $('.gallery-filter-wrapper').isotope({
+        var $grid = $('.gallery-filter-wrapper').imagesLoaded( function() {
+          // init Isotope after all images have loaded
+          $grid = $('.gallery-filter-wrapper').isotope({
             itemSelector: '.gallery-item',
             layoutMode: 'fitRows',
+          });
         });
+
         var filterFns = {
             numberGreaterThan50: function() {
                 var number = $(this).find('.number').text();
@@ -154,7 +157,7 @@
 
     });
 
-    // search 
+    // search
     var sjs = SimpleJekyllSearch({
         searchInput: document.getElementById('search-input'),
         resultsContainer: document.getElementById('results-container'),
@@ -164,7 +167,7 @@
 
 
     $('[data-toggle="tooltip"]').tooltip()
- 
+
 
         hljs.initHighlightingOnLoad();
 
