@@ -71,13 +71,32 @@
    <!--  Add Favicon Icon-->
    <link rel="shortcut icon" href="/assets/images/favicon.png" type="image/x-icon">
    <link rel="icon" href="{{ site.baseurl }}/assets/images/favicon.png" type="image/x-icon">
-  
-   
+
+
    <!-- Main CSS -->
    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/app.min.css">
 
    <!-- Poppins Google Font -->
    <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,700|Open+Sans&display=swap" rel="stylesheet">
+
+  <!-- Facebook Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+      n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window,document,'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '3269032720006752');
+    fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" src="https://www.facebook.com/tr?id=3269032720006752&ev=PageView &noscript=1"/>
+  </noscript>
+  <!-- End Facebook Pixel Code -->
+
 
 </head>
 <body>
@@ -90,7 +109,7 @@
    <!-- gulp:js -->
    <script src="{{ site.baseurl }}/assets/js/build.min.js"></script>
    <!-- endgulp -->
-   
+
 </body>
 
 </html>
