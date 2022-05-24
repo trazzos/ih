@@ -44,6 +44,8 @@
     url_2: https://elibro.net/es/lc/ihjaimesabines/login_usuario/?next=/es/lc/ihjaimesabines/inicio/
   - title: Revistas Científicas
     url: /revistas-cientificas
+  - title: Bases de datos
+    url: /bases-de-datos
   - title: Servicios de Apoyos Adicionales
     url: /servicios-adicionales
   - title: Normatividad
