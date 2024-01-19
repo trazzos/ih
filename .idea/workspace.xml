@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="af6ed913-00b1-4018-a163-4696e8272177" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bases-de-datos.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/navigation.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/navigation.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_educacion/administracion_empresas.html" beforeDir="false" afterPath="$PROJECT_DIR$/_educacion/administracion_empresas.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_educacion/contaduria_publica.html" beforeDir="false" afterPath="$PROJECT_DIR$/_educacion/contaduria_publica.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_educacion/derecho.html" beforeDir="false" afterPath="$PROJECT_DIR$/_educacion/derecho.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_educacion/informatica_administrativa.html" beforeDir="false" afterPath="$PROJECT_DIR$/_educacion/informatica_administrativa.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_educacion/psicologia_clinica.html" beforeDir="false" afterPath="$PROJECT_DIR$/_educacion/psicologia_clinica.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_educacion/psicologia_general.html" beforeDir="false" afterPath="$PROJECT_DIR$/_educacion/psicologia_general.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_educacion/trabajo_social.html" beforeDir="false" afterPath="$PROJECT_DIR$/_educacion/trabajo_social.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/licenciaturas.html" beforeDir="false" afterPath="$PROJECT_DIR$/licenciaturas.html" afterDir="false" />
-    </list>
+    <list default="true" id="af6ed913-00b1-4018-a163-4696e8272177" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
